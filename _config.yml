@@ -13,7 +13,7 @@ name                     : &name "Chenglu Jin"
 description              : &description "Hardware Security and Cyber-Physical System Security Researcher"
 url                      : https://chenglujin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "chenglujin/academicpages.github.io"
+repository               : "chenglujin/chenglujin.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -85,10 +85,10 @@ author:
   bio              : "Hardware Security and Cyber-Physical System Security Researcher"
   location         : "Brooklyn, NY"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en&oi=ao"
   email            :  "mailto:chenglu.jin@nyu.edu"
-  researchgate     :   "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :   #"https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "chenglujin"
+  github           : #"chenglujin"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "chenglujin"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
