@@ -13,4 +13,4 @@ benchmarks are just the tip of the iceberg on this huge landscape.
 
 [Download paper here](https://ieeexplore.ieee.org/document/8053050)
 
-[Download full version paper here](http://arxiv.org/abs/1605.08413)
+[Download full version here](http://arxiv.org/abs/1605.08413)

@@ -5,7 +5,7 @@ permalink: /publication/2017-cryptography-lpn-puf
 excerpt: 'This paper proposes a general countermeasure methodology to protect stream ciphers from fault injection attacks. It exploits the diversity in the algorithm of stream ciphers.' 
 date: 2017-12-01
 venue: 'Cryptography'
-citation: 'C. Jin}, C. Herder, L. Ren, P. H. Nguyen, B. Fuller, S. Devadas, and M. van Dijk. (2017).&quot;
+citation: 'C. Jin, C. Herder, L. Ren, P. H. Nguyen, B. Fuller, S. Devadas, and M. van Dijk. (2017).&quot;
 FPGA Implementation of a Cryptographically-Secure PUF based on Learning Parity with Noise
 &quot; <i>
 Cryptography

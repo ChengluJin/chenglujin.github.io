@@ -1,7 +1,7 @@
 ---
 title: "Advancing the State-of-the-Art in Hardware Trojans Detection"
 collection: publications
-permalink: /publication/2017-cryptography-lpn-puf
+permalink: /publication/2019-tdsc-hatch
 excerpt: 'This paper present the first rigorous algorithm of pre-silicon hardware Trojan detection.' 
 date: 2019-01-01
 venue: 'IEEE Transactions on Dependable and Secure Computing (TDSC)'
