@@ -12,4 +12,6 @@ IEEE Conference on Nanotechnology (IEEE-NANO)
 </i>. '
 ---
 
-Coming soon!
+<b>Abstract:> Hardware security primitives such as physical obfuscated keys (POKs) allow tamper-resistant storage of random keys based on manufacturing or physical variability. The output bits of existing POK designs need to be first corrected due to measurement noise using error correction methods and then de-correlated by privacy amplification processes. These additional requirements increase the hardware overhead and reduce the efficiency of the system. In this work, we propose an intrinsically reliable POK design capable of generating random bits that requires only XOR circuitry for privacy amplification, by exploiting the limits of the lithographic process for a given technology (without need for any reliability enhancement technique).
+
+[Download online version paper here](https://arxiv.org/abs/1703.07427)

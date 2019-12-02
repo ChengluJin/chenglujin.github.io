@@ -12,7 +12,7 @@ International Conference on Financial Cryptography and Data Security (FC)
 </i>. '
 ---
 
-Coming soon!
+<b>Abstract:</b> Given the value of imported counterfeit and pirated goods, the need for secure supply chain management is pertinent. Maleki et al. (HOST 2017) propose a new management scheme based on RFID tags (with 2–3K bits NVM) which, if compared to other schemes, is competitive on several performance and security metrics. Its main idea is to have each RFID tag stores its reader events in its own NVM while moving through the supply chain. In order to bind a tag’s identity to each event such that an adversary is not able to impersonate the tag’s identity on another duplicate tag, a function with a weak form of unforgeability is needed. In this paper, we formally define this security property, present three constructions (MULTIPLY-ADD, ADD-XOR, and SBox-CBC) having this security property, and show how to bound the probability of successful impersonation in concrete parameter settings. Finally, we compare our constructions with the light-weight hash function PHOTON used by Maleki et al. in terms of security and circuit area needed. We conclude that our ADD-XOR and S-Box-CBC constructions have approximately 1/4−1/3 of PHOTON’s total circuit area (this also includes the control circuitry besides PHOTON) while maintaining an appropriate security level which takes care of economically motivated adversaries.
 
 [Download paper here](https://link.springer.com/chapter/10.1007/978-3-662-58387-6_5)
 

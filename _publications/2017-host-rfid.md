@@ -12,6 +12,8 @@ IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)
 </i>. '
 ---
 
-Coming soon!
+<b>Abstract:</b> Radio-Frequency Identification (RFID) tags have been widely used as a low-cost wireless method for detection of counterfeit product injection in supply chains. In order to adequately perform authentication, current RFID monitoring schemes need to either have a persistent online connection
+between supply chain partners and the back-end database or have a local database on each partner site. A persistent online connection is not guaranteed and local databases on each partner site impose extra cost and security issues. We solve this problem by introducing a new scheme in which a small Non-Volatile
+Memory (NVM) embedded in RFID tag is used to function as a tiny “encoded local database”. In addition our scheme resists “tag tracing” so that each partner’s operation remains private. Our scheme can be implemented in less than 1200 gates satisfying current RFID technology requirements.
 
 [Download paper here](https://ieeexplore.ieee.org/document/7951810)
