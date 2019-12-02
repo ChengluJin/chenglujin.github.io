@@ -5,7 +5,7 @@ permalink: /publication/2015-jcen-ced-evaluation
 excerpt: 'This paper evaluates various concurrent error detection schemes by two proposed metrics: fault entropy and fault differential entropy.' 
 date: 15-05-01
 venue: 'Journal of Cryptographic Engineering (JCEN)'
-citation: 'Z. Yang, C. Jin, Y. Tian, J. Lai, J. Zhou. (2020).&quot;
+citation: 'X. Guo, D. Mukhopadhyay, C. Jin, and R. Karri. (2015).&quot;
 Security Analysis of Concurrent Error Detection against Differential Fault Analysis
 &quot; <i>
 Journal of Cryptographic Engineering (JCEN)
