@@ -15,4 +15,5 @@ International Conference on Financial Cryptography and Data Security (FC)
 Coming soon!
 
 [Download paper here](https://link.springer.com/chapter/10.1007/978-3-662-58387-6_5)
+
 [Download full version paper here](https://eprint.iacr.org/2017/1221.pdf)

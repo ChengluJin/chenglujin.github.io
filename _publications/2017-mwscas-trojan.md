@@ -11,4 +11,5 @@ citation: 'S. K. Haider, C. Jin, and M. van Dijk. (2017).&quot;Advancing the Sta
 Coming soon!
 
 [Download paper here](https://ieeexplore.ieee.org/document/8053050)
+
 [Download full version paper here](http://arxiv.org/abs/1605.08413)
