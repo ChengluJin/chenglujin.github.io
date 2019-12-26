@@ -1,5 +1,5 @@
 ---
-title: "Phase calibrated ring oscillator PUF design and implementation on FPGAs"
+title: "Phase Calibrated Ring Oscillator PUF Design and Implementation on FPGAs"
 collection: publications
 permalink: /publication/2017-fpl-puf
 excerpt: 'This paper introduces a phase calibrated ring oscillator (RO) PUF design which improves the reliability of over traditional RO PUFs.'

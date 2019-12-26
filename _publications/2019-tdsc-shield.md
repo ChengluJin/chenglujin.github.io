@@ -1,5 +1,5 @@
 ---
-title: "Secure and Efficient Initialization and Authenti-cation Protocols for SHIELD"
+title: "Secure and Efficient Initialization and Authentication Protocols for SHIELD"
 collection: publications
 permalink: /publication/2017-cryptography-lpn-puf
 excerpt: 'This paper discovers a security vunlerability in the SHIELD authentication protocol proposed by DARPA.' 
