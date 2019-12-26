@@ -2,7 +2,7 @@
 title: "Mitigating Synchronized Hardware Trojan Attacks in Smart Grids"
 collection: publications
 permalink: /publication/2017-cpsrsg-sync-trojan
-excerpt: 'This paper investigates how aging of the countermeasure to power side channel analysis will affect their effectiveness.'
+excerpt: '>This paper investigates the feasibility of synchronized hardware Trojan attacks in smart grids. Based on our categorization of possible synchronized hardware Trojans, we proposed efficient and effective solutions to isolate nodes in the smart grids to convert synchronized attacks to sporadic failures.'
 date: 2017-04-01
 venue: 'Workshop on Cyber-Physical Security and Resilience in Smart Grids (CPSR-SG@CPSWeek)'
 citation: 'C. Jin, L. Ren, X. Liu, P. Zhang, and M. van Dijk. (2017). &quot;Mitigating Synchronized Hardware Trojan Attacks in Smart Grids&quot; <i>Workshop on Cyber-Physical Security and Resilience in Smart Grids (CPSR-SG@CPSWeek)</i>. '
@@ -14,3 +14,18 @@ In this paper, we address the offline synchronized hardware Trojan attack, a
 A offline attacks without replacing any untrusted functional unit, which may already have embedded hardware Trojans.
 
 [Download paper here](http://dl.acm.org/citation.cfm?id=3055394)
+
+---
+
+Bibtex:
+
+```
+@inproceedings{jin2017mitigating,
+  title={Mitigating Synchronized Hardware Trojan Attacks in Smart Grids},
+  author={Jin, Chenglu and Ren, Lingyu and Liu, Xubin and Zhang, Peng and van Dijk, Marten},
+  booktitle={Proceedings of the 2nd Workshop on Cyber-Physical Security and Resilience in Smart Grids},
+  pages={35--40},
+  year={2017},
+  organization={ACM}
+}
+```

@@ -2,7 +2,7 @@
 title: "Security Analysis of Concurrent Error Detection against Differential Fault Analysis"
 collection: publications
 permalink: /publication/2015-jcen-ced-evaluation
-excerpt: 'We proposed two novel metrics (fault entropy and fault differential entropy) to evaluate various concurrent error detection schemes. This work challenges the traditional use of fault coverage for uniformly distributed faults as a metric for assessing the security of CEDs.' 
+excerpt: '>We proposed two novel metrics (fault entropy and fault differential entropy) to evaluate various concurrent error detection schemes. This work challenges the traditional use of fault coverage for uniformly distributed faults as a metric for assessing the security of CEDs.' 
 date: 15-01-01
 venue: 'Journal of Cryptographic Engineering (JCEN)'
 citation: 'X. Guo, D. Mukhopadhyay, C. Jin, and R. Karri. (2015).&quot;
@@ -17,3 +17,20 @@ with uniformly distributed faults, the resulting fault coverage indicates the se
 CEDs against DFA. We provide a systematic study of DFA of AES and show that an attacker can inject biased faults to improve the success rate of the attacks. We propose fault entropy (FE) and fault differential entropy (FDE) to evaluate CEDs. We show that most CEDs with high fault coverage are not secure when evaluated with FE and FDE. This work challenges the traditional use of fault coverage for uniformly distributed faults as a metric for evaluating the security of CEDs against DFA.
 
 [Download paper here](http://link.springer.com/article/10.1007/s13389-014-0092-8)
+
+---
+
+Bibtex:
+
+```
+@article{guo2015security,
+  title={Security analysis of concurrent error detection against differential fault analysis},
+  author={Guo, Xiaofei and Mukhopadhyay, Debdeep and Jin, Chenglu and Karri, Ramesh},
+  journal={Journal of Cryptographic Engineering},
+  volume={5},
+  number={3},
+  pages={153--169},
+  year={2015},
+  publisher={Springer}
+}
+```
