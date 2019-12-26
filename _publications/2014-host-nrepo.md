@@ -16,11 +16,11 @@ citation: 'X. Guo, D. Mukhopadhyay, C. Jin, and R. Karri. (2014). &quot;NREPO: N
 
 bibtex :
 
-@inproceedings{guo2014nrepo,
-  title={NREPO: Normal basis recomputing with permuted operands},
-  author={Guo, Xiaofei and Mukhopadhyay, Debdeep and Jin, Chenglu and Karri, Ramesh},
-  booktitle={2014 IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},
-  pages={118--123},
-  year={2014},
-  organization={IEEE}
-} 
+    @inproceedings{guo2014nrepo,
+      title={NREPO: Normal basis recomputing with permuted operands},
+      author={Guo, Xiaofei and Mukhopadhyay, Debdeep and Jin, Chenglu and Karri, Ramesh},
+      booktitle={2014 IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},
+      pages={118--123},
+      year={2014},
+      organization={IEEE}
+    } 
