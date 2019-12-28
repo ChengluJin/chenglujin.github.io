@@ -6,7 +6,7 @@ excerpt: '>We proposed two novel metrics (fault entropy and fault differential e
 date: 15-01-01
 venue: 'Journal of Cryptographic Engineering (JCEN)'
 citation: 'X. Guo, D. Mukhopadhyay, C. Jin, and R. Karri. (2015).&quot;Security Analysis of Concurrent Error Detection against Differential Fault Analysis
-&quot;<i>Journal of Cryptographic Engineering (JCEN)</i>.'
+&quot; <i>Journal of Cryptographic Engineering (JCEN)</i>.'
 ---
 
 <b>Abstract:</b> Differential fault analysis (DFA) poses a significant threat to advanced encryption standard (AES). Only a single faulty ciphertext is required to extract the secret key. Concurrent error detection (CED) is widely used to protect AES against DFA. Traditionally, these CEDs are evaluated
