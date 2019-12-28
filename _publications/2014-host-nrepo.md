@@ -2,9 +2,9 @@
 title: "NREPO: Normal Basis Recomputing with Permuted Operands"
 collection: publications
 permalink: /publication/2014-host-nrepo
-excerpt: '>This paper introduces a concurrent error detection mechanism (NREPO) for compact (8-bit datapath) implementations of AES against fault injections.  It achieves 25 to 50 times lower fault miss rate comparing with parity-based and robust code-based detection, while it incurs 34.9% hardware overhead.'
+excerpt: '>This paper introduces a concurrent error detection mechanism (NREPO) for compact (8-bit datapath) implementations of AES against fault injections.  It achieves 25 to 50 times lower fault miss rate comparing with parity-based and robust code-based detection.'
 date: 2014-05-01
-venue: 'IEEE International Symposium on Hardware-Oriented Security and Trust <p>(HOST)</p>'
+venue: 'IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)'
 citation: 'X. Guo, D. Mukhopadhyay, C. Jin, and R. Karri. (2014). &quot;NREPO: Normal Basis Recomputing with Permuted Operands&quot; <i>IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)</i>.'
 ---
 

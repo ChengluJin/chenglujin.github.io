@@ -2,7 +2,7 @@
 title: "Snapshotter: Lightweight Intrusion Detection and Prevention System for Industrial Control Systems"
 collection: publications
 permalink: /publication/2018-icps-snapshotter
-excerpt: 'This paper introduces a secure logging system, Snapshotter, to monitor the behaviors of Programmable Logic Controllers (PLCs) in industrial control systems. Snapshotter can also guarantee the forward secrecy of the logged events and transmit them to a centralized server in a stealthy way for verification.' 
+excerpt: '>This paper introduces a secure logging system, Snapshotter, to monitor the behaviors of Programmable Logic Controllers (PLCs) in industrial control systems. Snapshotter can also guarantee the forward secrecy of the logged events and transmit them to a centralized server in a stealthy way for verification.' 
 date: 2018-05-01
 venue: 'IEEE International Conference on Industrial Cyber-Physical Systems (ICPS)'
 citation: 'C. Jin, S. Valizadeh, and M. van Dijk. (2018). &quot;Snapshotter: Lightweight Intrusion Detection and Prevention System for Industrial Control Systems&quot; <i>IEEE International Conference on Industrial Cyber-Physical Systems (ICPS)</i>.'

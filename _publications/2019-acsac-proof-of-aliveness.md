@@ -2,7 +2,7 @@
 title: "Proof of Aliveness"
 collection: publications
 permalink: /publication/2019-acsac-proof-of-aliveness
-excerpt: 'We introduce a new cryptographic notion called Proof of Aliveness. It allows a resource-constrained device to prove its aliveness to a remote verifier securely over an open network.' 
+excerpt: '>We introduce a new cryptographic notion called Proof of Aliveness. It allows a resource-constrained device to prove its aliveness to a remote verifier securely and efficiently over an open network.' 
 date: 2019-12-01
 venue: 'Annual Computer Security Applications Conference (ACSAC)'
 citation: 'C. Jin, Z. Yang, M. van Dijk, and J. Zhou. (2019). &quot;Proof of Aliveness&quot; <i>Annual Computer Security Applications Conference (ACSAC)</i>.'

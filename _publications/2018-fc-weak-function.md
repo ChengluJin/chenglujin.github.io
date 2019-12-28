@@ -2,7 +2,7 @@
 title: "Weak-Unforgeable Tags for Secure Supply Chain Management"
 collection: publications
 permalink: /publication/2018-fc-weak-function
-excerpt: 'This paper introduces the concept of weak-unforgeable functions, which can be used for securing supply chains. We also introduce and compare three efficient constructions of weak-unforgeable functions.' 
+excerpt: '>This paper introduces the concept of weak-unforgeable functions, which can be used for securing supply chains. We also introduce and compare three efficient constructions of weak-unforgeable functions.' 
 date: 2018-02-01
 venue: 'International Conference on Financial Cryptography and Data Security (FC)'
 citation: 'M. van Dijk, C. Jin, H. Maleki, P. H. Nguyen, and R. Rahaeimehr. (2018). &quot;Weak-Unforgeable Tags for Secure Supply Chain Management&quot; <i>
