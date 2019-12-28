@@ -18,10 +18,14 @@ His research interests are hardware security, cyber-physical system security, an
 # Education
 
 2019/08, Ph.D. in Computer Engineering, University of Connecticut, Storrs, CT
+
 Advisor: Dr. Marten van Dijk
+Dissertation: Cryptographic Solutions for Cyber-Physical System Security
 
 2014/05, M.S. in Computer Engineering, New York University, New York, NY
+
 Advisor: Dr. Ramesh Karri
+Thesis: NREPO: Normal Basis Recomputing with Permuted Operands
 
 2012/06, B.S. in Electrical Engineering, Xidian University, Xi'an, China
 
