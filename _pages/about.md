@@ -18,16 +18,37 @@ His research interests are hardware security, cyber-physical system security, an
 # Education
 
 2019/08, Ph.D. in Computer Engineering, University of Connecticut, Storrs, CT
+Advisor: Dr. Marten van Dijk
 
 2014/05, M.S. in Computer Engineering, New York University, New York, NY
+Advisor: Dr. Ramesh Karri
 
 2012/06, B.S. in Electrical Engineering, Xidian University, Xi'an, China
 
 # Work Experience
 
-2019/09 - Present, Smart Cities Postdoctoral Associate at New York University, Brooklyn, NY
+2019/09 - Present, Smart Cities Postdoctoral Associate, New York University, Brooklyn, NY
+
 Mentor: Dr. Daniel Neill and Dr. Ramesh Karri
 
 2014/07 - 2019/08, Research Assistant, University of Connecticut, Storrs, CT
+
 Advisor: Dr. Marten van Dijk
 
+2018/05 - 2018/08, Intern, Singapore University of Technology and Design, Singapore
+
+Mentor: Dr. Jianying Zhou
+
+2016/01 - 2016/12, Teaching Assistant, University of Connecticut, Storrs, CT
+
+2016/06 - 2016/08, Intern, Open Security Research, Shenzhen, China
+
+Mentor: Dr. Junfeng Fan
+
+2015/06 - 2015/08, Intern, Open Security Research, Shenzhen, China
+
+Mentor: Dr. Junfeng Fan
+
+2013/09 - 2014/05, Research Assistant, New York University, Brooklyn, NY
+
+Advisor: Dr. Ramesh Karri
