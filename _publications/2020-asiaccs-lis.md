@@ -2,10 +2,10 @@
 title: "LiS: Lightweight Signature Schemes for Continuous Message Authentication in Cyber-Physical Systems"
 collection: publications
 permalink: /publication/2020-asiaccs-lis
-excerpt: '>We propose an extremely efficient signature scheme that allows a resource-constrained device (signer) to sign messages continuously and efficiently. This is crucial for enabling message authentication in cyber-physical systems.' 
+excerpt: '>We transform chameleon hash functions to an extremely efficient signature scheme that allows a resource-constrained device (signer) to sign messages continuously and efficiently. This is crucial for enabling message authentication in cyber-physical systems.' 
 date: 2020-07-01
 venue: 'ACM Asia Conference on Computer and Communications Security (AsiaCCS)'
-citation: 'Z. Yang, C. Jin, Y. Tian, J. Lai, J. Zhou. (2020).&quot;LiS: Lightweight Signature Schemes for Continuous Message Authentication in Cyber-Physical Systems&quot; <i>ACM Asia Conference on Computer and Communications Security (AsiaCCS)</i>.'
+citation: 'Z. Yang, C. Jin, Y. Tian, J. Lai, J. Zhou. (2020). &quot;LiS: Lightweight Signature Schemes for Continuous Message Authentication in Cyber-Physical Systems&quot; <i>ACM Asia Conference on Computer and Communications Security (AsiaCCS)</i>.'
 ---
 
 <b>Abstract:</b> Cyber-Physical Systems (CPS) provide the foundation of our critical infrastructures, which form the basis of emerging and future smart services and improve our quality of life in many areas. In such CPS, sensor data is transmitted over the network to the controller, which will make real-time control decisions according to the received sensor data. Due to the existence of spoofing attacks (more specifically to CPS, false data injection attacks), one has to protect the authenticity and integrity of the transmitted data. For example, a digital signature can be used to solve this issue. However, the resource-constrained field devices like sensors cannot afford conventional signature computation. Thus, we have to seek for an efficient signature mechanism that can support the fast and continuous message authentication in CPS, while being easy to compute on the devices.
