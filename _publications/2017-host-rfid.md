@@ -5,7 +5,7 @@ permalink: /publication/2017-host-rfid
 excerpt: '>This paper introduces a new RFID-based clone-detection approach to secure supply chains. It effectively moves the database of authentication information to the non-volatile memory on each chip. It, therefore, reduces the cost of management and maintenance of supply chain partners.'
 date: 2017-05-01
 venue: 'IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)'
-citation: 'H. Maleki, R. Rahaeimehr, C. Jin, and M. van Dijk. (2017).&quot;New Clone-Detection Approach for RFID-Based Supply Chains&quot; <i>IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)</i>.'
+citation: 'H. Maleki, R. Rahaeimehr, C. Jin, and M. van Dijk. (2017). &quot;New Clone-Detection Approach for RFID-Based Supply Chains&quot; <i>IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)</i>.'
 ---
 
 <b>Abstract:</b> Radio-Frequency Identification (RFID) tags have been widely used as a low-cost wireless method for detection of counterfeit product injection in supply chains. In order to adequately perform authentication, current RFID monitoring schemes need to either have a persistent online connection

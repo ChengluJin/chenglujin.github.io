@@ -2,10 +2,10 @@
 title: "Advancing the State-of-the-Art in Hardware Trojans Detection"
 collection: publications
 permalink: /publication/2019-tdsc-hatch
-excerpt: '>Based on our definitional framework of trigger-based deterministic hardware Trojans, we propose the first rigorous algorithm that can detect hardware Trojans in a given hardware Trojan class with a provable false negative rate and a tunable false positive rate.' 
+excerpt: '>Based on our earlier work on the definitional framework of trigger-based deterministic hardware Trojans, we propose the first rigorous algorithm that can detect hardware Trojans in a given hardware Trojan class with a provable false negative rate and a tunable false positive rate.' 
 date: 2019-01-01
 venue: 'IEEE Transactions on Dependable and Secure Computing (TDSC)'
-citation: 'S. K. Haider, C. Jin, M. Ahmad, D. M. Shila, O. Khan, and M. van Dijk. (2019).&quot;Advancing the State-of-the-Art in Hardware Trojans Detection
+citation: 'S. K. Haider, C. Jin, M. Ahmad, D. M. Shila, O. Khan, and M. van Dijk. (2019). &quot;Advancing the State-of-the-Art in Hardware Trojans Detection
 &quot; <i>IEEE Transactions on Dependable and Secure Computing (TDSC)</i>.'
 ---
 
@@ -19,7 +19,7 @@ characteristics regarding the stealthiness of the HT within HD, the computationa
 Bibtex:
 
 ```
-@article{haider2017advancing,
+@article{haider2019advancing,
   title={Advancing the state-of-the-art in hardware trojans detection},
   author={Haider, Syed Kamran and Jin, Chenglu and Ahmad, Masab and Shila, Devu Manikantan and Khan, Omer and van Dijk, Marten},
   journal={IEEE Transactions on Dependable and Secure Computing},

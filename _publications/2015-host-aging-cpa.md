@@ -2,7 +2,7 @@
 title: "Simulation and Analysis of Negative-Bias Temperature Instability Aging on Power Analysis Attacks"
 collection: publications
 permalink: /publication/2015-host-aging-cpa
-excerpt: '>This paper investigates the impact of transistor aging on the security of hardware designs. We used PRESENT as an example to show that transistor aging will not affect correlation power analysis significantly, but it changes the result of template attacks largely. '
+excerpt: '>This paper investigates the impact of transistor aging on the security of hardware designs. We used PRESENT as an example to show that transistor aging will not affect correlation power analysis significantly, but it changes the result of template attacks.'
 date: 2015-05-01
 venue: 'IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)'
 citation: 'X. Guo, N. Karimi, F. Regazzoni, C. Jin, and R. Karri. (2015). &quot;Simulation and Analysis of Negative-Bias Temperature Instability Aging on Power Analysis Attacks&quot; <i>IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)</i>.'
