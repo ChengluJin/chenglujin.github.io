@@ -82,9 +82,8 @@ analytics:
 author:
   name             : "Chenglu Jin"
   avatar           : "profile.jpg"
-  bio              : "Hardware Security and Cyber-Physical System Security Researcher"
+  bio              : "Security Researcher"
   location         : "Brooklyn, NY"
-  employer         :
   #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en&oi=ao"
   email            :  "mailto:chenglu.jin@nyu.edu"
