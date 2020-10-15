@@ -7,11 +7,15 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
+[<b>A Survey of Cybersecurity of Digital Manufacturing</b>](https://arxiv.org/abs/2006.05042)<br>
+Priyanka Mahesh, Akash Tiwari, <b>Chenglu Jin</b>, Panganamala R. Kumar, A. L. Narasimha Reddy, Satish T.S. Bukkapatanam, Nikhil Gupta, and Ramesh Karri.
+<i>Proceedings of the IEEE (<b>PIEEE'20</b>)</i>.
+
 <b>Erasable PUFs: Formal Treatment and Generic Design</b><br>
 <b>Chenglu Jin</b>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair. 
 <i>Workshop on Attacks and Solutions in Hardware Security (<b>ASHES@CCS'20</b>)</i>.
 
-<b>LiS: Lightweight Signature Schemes for Continuous Message Authentication in Cyber-Physical Systems</b><br>
+[<b>LiS: Lightweight Signature Schemes for Continuous Message Authentication in Cyber-Physical Systems</b>](https://dl.acm.org/doi/abs/10.1145/3320269.3372195)<br>
 Zheng Yang, <b>Chenglu Jin</b>, Yangguang Tian, Junyu Lai, Jianying Zhou. 
 <i>ACM Asia Conference on Computer and Communications Security (<b>AsiaCCS'20</b>)</i>.
 
