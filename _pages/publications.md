@@ -7,11 +7,11 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
-[<b>A Survey of Cybersecurity of Digital Manufacturing</b>](https://arxiv.org/abs/2006.05042)<br>
+[<b>A Survey of Cybersecurity of Digital Manufacturing</b>](https://ieeexplore.ieee.org/document/9247392)<br>
 Priyanka Mahesh, Akash Tiwari, <b>Chenglu Jin</b>, Panganamala R. Kumar, A. L. Narasimha Reddy, Satish T.S. Bukkapatanam, Nikhil Gupta, and Ramesh Karri.
 <i>Proceedings of the IEEE (<b>PIEEE'20</b>)</i>.
 
-<b>Erasable PUFs: Formal Treatment and Generic Design</b><br>
+[<b>Erasable PUFs: Formal Treatment and Generic Design</b>](https://dl.acm.org/doi/10.1145/3411504.3421215)<br>
 <b>Chenglu Jin</b>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair. 
 <i>Workshop on Attacks and Solutions in Hardware Security (<b>ASHES@CCS'20</b>)</i>.
 
