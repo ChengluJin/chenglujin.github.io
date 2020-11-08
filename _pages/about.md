@@ -14,3 +14,10 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/). 
 
+<b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a master student enrolled in one of universities in the Netherlands, you are welcome to conduct your thesis research at CWI with me. Background or past experience on one (or more) of the following topics is a plus:
+
+1. Cryptography
+2. System Security Research
+3. FPGA Programming
+4. PLC Programming
+5. Embedded System Design with MCUs
