@@ -7,7 +7,7 @@ author_profile: true
 
 ### Program Committee Member
 
-- International Symposium on Quality Electronic Design (ISQED’20,21) 
+- International Symposium on Quality Electronic Design (ISQED’20, 21) 
 - Applied Research Competition in North American Region (CSAW’20)
 - Workshop on Attacks and Solutions in Hardware Security (ASHES’20)
 - International Conference on Information and Communications Security (ICICS’19, 20)
