@@ -5,6 +5,10 @@ permalink: /services/
 author_profile: true
 ---
 
+### Program Committee Chair
+
+- [International Workshop on Critical Infrastructure and Manufacturing System Security](https://cimssworkshop.github.io/) (CIMSS'21)
+
 ### Program Committee Member
 
 - International Symposium on Quality Electronic Design (ISQED’20, 21) 
