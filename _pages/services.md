@@ -11,6 +11,8 @@ author_profile: true
 
 ### Program Committee Member
 
+- IFIP International Internet of Things Conference (IFIP IoT’21)
+- Euromicro Conference on Digital Systems Design (DSD’21)
 - International Symposium on Quality Electronic Design (ISQED’20, 21) 
 - Applied Research Competition in North American Region (CSAW’20)
 - Workshop on Attacks and Solutions in Hardware Security (ASHES’20)
@@ -35,6 +37,7 @@ author_profile: true
 - ACM Transactions on Design Automation of Electronic Systems (TODAES)
 - ACM Journal on Emerging Technologies in Computing Systems (JETC)
 - IOS Journal of Computer Security (JCS)
+- Springer Journal of Electronic Testing (JETTA)
 - Springer Journal of Hardware and Systems Security (HASS)
 - Springer Cybersecurity
 - IET Circuits, Devices & Systems
