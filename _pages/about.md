@@ -14,7 +14,7 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/). 
 
-<b>News:</b> Michail Maniatakos (NYU Abu Dhabi) and I are organizing the [1st International Workshop on Critical Infrastructure and Manufacturing System Security (CIMSS)](https://cimssworkshop.github.io/), in conjuction with ACNS2021 at Kamakura, Japan. The paper submission deadline is on March 20, 2021. Please submit your good work.
+<b>News:</b> Michail Maniatakos (NYU Abu Dhabi) and I are organizing the [1st International Workshop on Critical Infrastructure and Manufacturing System Security (CIMSS)](https://cimssworkshop.github.io/), in conjuction with ACNS2021 at Kamakura, Japan. The paper submission deadline is April 5, 2021. Please submit your good work.
 
 <b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a <b>master student enrolled in one of the universities in the Netherlands</b>, you are welcome to conduct your thesis research at CWI with me. Background or experience on one (or more) of the following topics is a plus:
 
