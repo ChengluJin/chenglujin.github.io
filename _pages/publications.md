@@ -9,7 +9,7 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 
 <b>HACK3D: Crowdsourcing the Assessment of Cybersecurity in Digital Manufacturing</b><br>
 Michael Linares, Nishant Aswani, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.
-<i>IEEE Computer'21</i> (To appear).
+<i><b>IEEE Computer'21</b></i> (To appear).
 
 <b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b><br>
 Zheng Yang, Chao Yin, <b>Chenglu Jin</b>, Jianting Ning, and Jianying Zhou.
