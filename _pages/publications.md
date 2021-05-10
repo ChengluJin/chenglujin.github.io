@@ -7,13 +7,17 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
-[<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b>]()<br>
+<b>HACK3D: Crowdsourcing the Assessment of Cybersecurity in Digital Manufacturing</b><br>
+Michael Linares, Nishant Aswani, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.
+<i>IEEE Computer'21</i> (To appear).
+
+<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b><br>
 Zheng Yang, Chao Yin, <b>Chenglu Jin</b>, Jianting Ning, and Jianying Zhou.
-<i>ACM Cyber-Physical System Security Workshop (<b>CPSS@AsiaCCS'21</b>)</i>.
+<i>ACM Cyber-Physical System Security Workshop (<b>CPSS@AsiaCCS'21</b>)</i> (To appear).
 
 [<b>A Survey of Cybersecurity of Digital Manufacturing</b>](https://ieeexplore.ieee.org/document/9247392)<br>
 Priyanka Mahesh, Akash Tiwari, <b>Chenglu Jin</b>, Panganamala R. Kumar, A. L. Narasimha Reddy, Satish T.S. Bukkapatanam, Nikhil Gupta, and Ramesh Karri.
-<i>Proceedings of the IEEE (<b>PIEEE'20</b>)</i>.
+<i>Proceedings of the IEEE (<b>PIEEE'21</b>)</i>.
 
 [<b>Erasable PUFs: Formal Treatment and Generic Design</b>](https://dl.acm.org/doi/10.1145/3411504.3421215)<br>
 <b>Chenglu Jin</b>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair. 
