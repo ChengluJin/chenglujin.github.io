@@ -11,9 +11,9 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 Michael Linares, Nishant Aswani, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.
 <i><b>IEEE Computer'21</b></i> (To appear). ([Online archive](https://arxiv.org/abs/2005.04368))
 
-<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b><br>
+[<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b>](https://dl.acm.org/doi/abs/10.1145/3457339.3457984)<br>
 Zheng Yang, Chao Yin, <b>Chenglu Jin</b>, Jianting Ning, and Jianying Zhou.
-<i>ACM Cyber-Physical System Security Workshop (<b>CPSS@AsiaCCS'21</b>)</i> (To appear).
+<i>ACM Cyber-Physical System Security Workshop (<b>CPSS@AsiaCCS'21</b>)</i>.
 
 [<b>A Survey of Cybersecurity of Digital Manufacturing</b>](https://ieeexplore.ieee.org/document/9247392)<br>
 Priyanka Mahesh, Akash Tiwari, <b>Chenglu Jin</b>, Panganamala R. Kumar, A. L. Narasimha Reddy, Satish T.S. Bukkapatanam, Nikhil Gupta, and Ramesh Karri.
