@@ -7,16 +7,16 @@ author_profile: true
 
 ### Program Committee Chair
 
-- [International Workshop on Critical Infrastructure and Manufacturing System Security](https://cimssworkshop.github.io/) (CIMSS'21)
+- [International Workshop on Critical Infrastructure and Manufacturing System Security](https://cimssworkshop.github.io/) (CIMSS'21, 22)
 
 ### Program Committee Member
 
+- International Conference on Information and Communications Security (ICICS’19, 20, 21, 22)
 - International Symposium on Quality Electronic Design (ISQED’20, 21, 22) 
 - Workshop on Attacks and Solutions in Hardware Security (ASHES’20, 21)
 - ACM Cloud Computing Security Workshop (CCSW’21)
 - IFIP International Internet of Things Conference (IFIP IoT’21)
 - International Workshop on Security and Trust Management (STM’21)
-- International Conference on Information and Communications Security (ICICS’19, 20, 21)
 - Euromicro Conference on Digital Systems Design (DSD’21)
 - Applied Research Competition in North American Region (CSAW’20)
 - International Conference on Science of Cyber Security (SciSec’19)
@@ -35,13 +35,16 @@ author_profile: true
 - IEEE Internet of Things Journal (IOT-J)
 - IEEE Consumer Electronics Magazine (CEM)
 - ACM Computing Surveys (CSUR)
+- ACM Transactions on Privacy and Security (TOPS)
 - ACM Transactions on Reconfigurable Technology and Systems (TRETS)
 - ACM Transactions on Design Automation of Electronic Systems (TODAES)
 - ACM Journal on Emerging Technologies in Computing Systems (JETC)
 - IOS Journal of Computer Security (JCS)
+- Springer Journal of Cryptographic Engineering (JCEN)
 - Springer Journal of Electronic Testing (JETTA)
 - Springer Journal of Hardware and Systems Security (HASS)
 - Springer Cybersecurity
+- Springer Discover Internet of Things
 - IET Circuits, Devices & Systems
 - ACM/EDAC/IEEE Design Automation Conference (DAC’18, 19, 20)
 - IEEE International Midwest Symposium on Circuits and Systems (MWSCAS’18)

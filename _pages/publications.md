@@ -7,17 +7,21 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
-<b>Group Time-based One-time Passwords and its Application to Efficient Privacy-Preserving Proof of Location</b><br>
+<b> Programmable Access-Controlled and Generic Erasable PUF Design and Its Applications</b><br>
+<b>Chenglu Jin</b>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair. <br>
+<i>Journal of Cryptographic Engineering (<b>JCEN'22</b>)</i>. (To appear)
+
+[<b>Group Time-based One-time Passwords and its Application to Efficient Privacy-Preserving Proof of Location</b>](https://dl.acm.org/doi/10.1145/3485832.3488009)<br>
 Zheng Yang, <b>Chenglu Jin</b>, Jianting Ning, Zengpeng Li, Tien Tuan Anh Dinh, and Jianying Zhou.<br>
-<i>Annual Computer Security Applications Conference (<b>ACSAC'21</b>)</i> (To appear). 
+<i>Annual Computer Security Applications Conference (<b>ACSAC'21</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/31289), [Slides](../files/GTOTP_ACSAC.pdf))
 
 [<b>PLCrypto: A Symmetric Cryptographic Library for Programmable Logic Controllers</b>](https://tosc.iacr.org/index.php/ToSC/article/view/9178)<br>
 Zheng Yang, Zhiting Bao, <b>Chenglu Jin</b>, Zhe Liu, and Jianying Zhou.<br>
-<i>IACR Transactions on Symmetric Cryptology (<b>ToSC'21</b>)</i>. 
+<i>IACR Transactions on Symmetric Cryptology (<b>ToSC'21</b>)</i>. ([Artifact](https://github.com/PLCrypto/PLCrypto)) 
 
-<b>HACK3D: Crowdsourcing the Assessment of Cybersecurity in Digital Manufacturing</b><br>
+[<b>HACK3D: Crowdsourcing the Assessment of Cybersecurity in Digital Manufacturing</b>](https://ieeexplore.ieee.org/abstract/document/9585150)<br>
 Michael Linares, Nishant Aswani, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.<br>
-<i><b>IEEE Computer'21</b></i> (To appear). ([Online archive](https://arxiv.org/abs/2005.04368))
+<i><b>IEEE Computer'21</b></i>. ([Online archive](https://ir.cwi.nl/pub/31211))
 
 [<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b>](https://dl.acm.org/doi/abs/10.1145/3457339.3457984)<br>
 Zheng Yang, Chao Yin, <b>Chenglu Jin</b>, Jianting Ning, and Jianying Zhou.<br>
