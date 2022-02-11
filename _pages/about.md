@@ -14,6 +14,8 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/).
 
+<b>News.</b> We are organizing the second International Workshop on Critical Infrastructure and Manufacturing System Security ([CIMSS'22](https://cimssworkshop.github.io/)), co-located with ACNS'22. The submission deadline is March 17, 2022. Please submit your works and help distribute the [CFP](https://cimssworkshop.github.io/files/CIMSS2022_CFP.pdf) to your students and colleagues.  
+
 <b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a <b>master student enrolled in one of the universities in the Netherlands</b>, you are welcome to conduct your thesis research at CWI with me. Background or experience on one (or more) of the following topics is a plus:
 
 1. Cryptography
