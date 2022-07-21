@@ -14,12 +14,19 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/).
 
-<b>News.</b> We are organizing the second International Workshop on Critical Infrastructure and Manufacturing System Security ([CIMSS'22](https://cimssworkshop.github.io/)), co-located with ACNS'22. The submission deadline is March 17, 2022. Please submit your works and help distribute the [CFP](https://cimssworkshop.github.io/files/CIMSS2022_CFP.pdf) to your students and colleagues.  
+<b>[We are hiring!!!]</b> There is a [fully-funded Ph.D. position](https://www.cwi.nl/jobs/vacancies/946698) open in the Computer Security group at CWI Amsterdam. The research topic will be mainly about <b>Cloud FPGA security</b>.
 
-<b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a <b>master student enrolled in one of the universities in the Netherlands</b>, you are welcome to conduct your thesis research at CWI with me. Background or experience on one (or more) of the following topics is a plus:
+<b>For Ph.D. students abroad</b>, if you are interested in working with us for 3 months in CWI Amsterdam, please check out the [Ph.D. internship program](https://www.cwi.nl/jobs/internship) at CWI. 
+
+<b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a <b>master student enrolled in one of the universities in the Netherlands</b>, you are welcome to conduct your thesis research at CWI. Background or experience on one (or more) of the following topics will be a plus:
 
 1. Cryptography
 2. System Security Research
 3. FPGA Programming
 4. PLC Programming
 5. Embedded System Design with MCUs
+
+<b>For prospective postdocs</b>, We can host postdocs in our group at CWI through the following postdoc fellowship programs. If you are interested, please get in touch with us.
+
+1. [Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
+2. [ERCIM Alain Bensoussan Fellowship Program](https://fellowship.ercim.eu/) 

@@ -5,6 +5,10 @@ permalink: /teaching/
 author_profile: true
 ---
 
+## King Abdullah University of Science and Technology
+
+<i>Computer Systems Security</i>, April 2022, Guest Lecturer
+
 ## New York University
 
 <i>Cybersecurity in Additive Manufacturing</i>, Fall 2020, Course Co-developer
