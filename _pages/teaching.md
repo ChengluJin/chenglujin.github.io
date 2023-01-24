@@ -7,7 +7,7 @@ author_profile: true
 
 ## King Abdullah University of Science and Technology
 
-<i>Computer Systems Security</i>, April 2022, Guest Lecturer
+<i>Computer Systems Security</i>, April 2022, November 2022, Guest Lecturer
 
 ## New York University
 

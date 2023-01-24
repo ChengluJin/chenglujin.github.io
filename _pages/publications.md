@@ -7,6 +7,10 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
+[<b>HMACCE: Establishing Authenticated and Confidential Channel From Historical Data for Industrial Internet of Things</b>](https://ieeexplore.ieee.org/document/10007864)<br>
+<b>Chenglu Jin</b>, Zheng Yang, Tao Xiang, Sridhar Adepu, and Jianying Zhou. <br>
+<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/31499))
+
 [<b>Programmable Access-Controlled and Generic Erasable PUF Design and Its Applications</b>](https://link.springer.com/article/10.1007/s13389-022-00284-z)<br>
 <b>Chenglu Jin</b>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair. <br>
 <i>Journal of Cryptographic Engineering (<b>JCEN'22</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/31493/))
