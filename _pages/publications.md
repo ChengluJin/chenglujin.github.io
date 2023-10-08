@@ -7,6 +7,14 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
+[<b>Secure Remote Attestation with Strong Key Insulation Guarantees</b>](https://ieeexplore.ieee.org/document/10168259)<br>
+Deniz Gurevin, <b> Chenglu Jin</b>, Phuong Ha Nguyen, Omer Khan, and Marten van Dijk. <br>
+<i>IEEE Transactions on Computers (<b>TC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33247))
+
+[<b>A Theoretical Framework for the Analysis of Physical Unclonable Function Interfaces and its Relation to the Random Oracle Model</b>](https://link.springer.com/article/10.1007/s00145-023-09475-1)<br>
+Marten van Dijk, and <b>Chenglu Jin</b>. <br>
+<i>Journal of Cryptology (<b>JoC'23</b>)</i>. 
+
 [<b>HMACCE: Establishing Authenticated and Confidential Channel From Historical Data for Industrial Internet of Things</b>](https://ieeexplore.ieee.org/document/10007864)<br>
 <b>Chenglu Jin</b>, Zheng Yang, Tao Xiang, Sridhar Adepu, and Jianying Zhou. <br>
 <i>IEEE Transactions on Information Forensics and Security (<b>TIFS'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/31499))
