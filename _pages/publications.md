@@ -7,8 +7,21 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
+
+[<b>Masked Memory Primitive for Key Insulated Schemes</b>]()<br>
+Zachary DiMeglio, Jenna Bustami, Deniz Gurevin, <b>Chenglu Jin</b>, Marten van Dijk, and Omer Khan.<br>
+<i>IEEE International Symposium on Hardware-Oriented Security and Trust (<b>HOST'24</b>)</i>.
+
+[<b>Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain</b>]()<br>
+Qingzhi Liu, Yuchen Huang,  <b>Chenglu Jin</b>, Xiaohan Zhou, Ying Mao, Cagatay Catal, and Long Cheng. <br>
+<i>ACM Transactions on Multimedia Computing Communications and Applications (<b>TOMM'23</b>)</i>.
+
+[<b>Optimizing Proof of Aliveness in Cyber-Physical Systems</b>](https://ieeexplore.ieee.org/abstract/document/10324378)<br>
+Zheng Yang, <b>Chenglu Jin</b>, Xuelian Cao, Marten van Dijk, and Jianying Zhou. <br>
+<i>IEEE Transactions on Dependable and Secure Computing (<b>TDSC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33586))
+
 [<b>Secure Remote Attestation with Strong Key Insulation Guarantees</b>](https://ieeexplore.ieee.org/document/10168259)<br>
-Deniz Gurevin, <b> Chenglu Jin</b>, Phuong Ha Nguyen, Omer Khan, and Marten van Dijk. <br>
+Deniz Gurevin, <b>Chenglu Jin</b>, Phuong Ha Nguyen, Omer Khan, and Marten van Dijk. <br>
 <i>IEEE Transactions on Computers (<b>TC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33247))
 
 [<b>A Theoretical Framework for the Analysis of Physical Unclonable Function Interfaces and its Relation to the Random Oracle Model</b>](https://link.springer.com/article/10.1007/s00145-023-09475-1)<br>

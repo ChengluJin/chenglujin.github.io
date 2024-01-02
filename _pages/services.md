@@ -19,16 +19,19 @@ author_profile: true
 
 ### Program Committee Member
 
+- ACM Cyber-Physical System Security Workshop (CPSS'24)
+- Applied Research Competition in North American Region (CSAW’20, 23)
+- ACM Cloud Computing Security Workshop (CCSW’21, 22, 23)
+- International Symposium on Quality Electronic Design (ISQED’20, 21, 22, 23, 24) 
+- International Workshop on Security and Trust Management (STM’21, 22, 23)
+- Workshop on Attacks and Solutions in Hardware Security (ASHES’20, 21, 22, 23)
+- IEEE International Conference on Omni-Layer Intelligent Systems (COINS'23)
+- IEEE Conference on Communications and Network Security (CNS'22, 23)
+- Malicious Software and Hardware in Internet of Things (MaL-IoT'23)
 - IEEE International Conference on Metaverse Computing, Networking and Applications (MetaCom’23)
-- International Symposium on Quality Electronic Design (ISQED’20, 21, 22, 23) 
-- International Workshop on Security and Trust Management (STM’21, 22)
-- ACM Cloud Computing Security Workshop (CCSW’21, 22)
-- Workshop on Attacks and Solutions in Hardware Security (ASHES’20, 21, 22)
-- IEEE Conference on Communications and Network Security (CNS'22)
 - IFIP International Internet of Things Conference (IFIP IoT’21, 22)
 - International Conference on Information and Communications Security (ICICS’19, 20, 21, 22)
 - Euromicro Conference on Digital Systems Design (DSD’21)
-- Applied Research Competition in North American Region (CSAW’20)
 - International Conference on Science of Cyber Security (SciSec’19)
 
 ### Student Program Committee Member
@@ -43,9 +46,12 @@ author_profile: true
 - IEEE Tran. on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
 - IEEE Transactions on Very Large Scale Integration Systems (TVLSI)
 - IEEE IEEE Transactions on Circuits and Systems I (TCAS-I)
+- IEEE Transactions on Consumer Electronics (TCE)
 - IEEE Security & Privacy (SP)
+- IEEE Computer Architecture Letters (CAL)
 - IEEE Internet of Things Journal (IOT-J)
 - IEEE Consumer Electronics Magazine (CEM)
+- IEEE Access
 - ACM Computing Surveys (CSUR)
 - ACM Transactions on Privacy and Security (TOPS)
 - ACM Transactions on Reconfigurable Technology and Systems (TRETS)

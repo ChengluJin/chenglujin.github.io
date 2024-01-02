@@ -5,9 +5,13 @@ permalink: /teaching/
 author_profile: true
 ---
 
+## University of Amsterdam
+
+<i>Cryptographic Engineering</i>, March 2023, Guest Lecturer
+
 ## King Abdullah University of Science and Technology
 
-<i>Computer Systems Security</i>, April 2022, November 2022, Guest Lecturer
+<i>Computer Systems Security</i>, April 2022, November 2022, November 2023, Guest Lecturer
 
 ## New York University
 
