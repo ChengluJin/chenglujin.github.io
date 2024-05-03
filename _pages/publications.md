@@ -7,10 +7,10 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=Fxm2RTUAAAAJ&hl=en&oi=ao) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
-$^*$ denotes shared first-authorship
+* denotes shared first-authorship
 
 [<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>]()<br>
-<b>Chenglu Jin</b>$^*$, Chao Yin$^*$, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
+<b>Chenglu Jin</b>*, Chao Yin*, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
 <i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>.
 
 [<b>Dynamic Group Time-based One-time Passwords</b>](https://ieeexplore.ieee.org/document/10494770)<br>
