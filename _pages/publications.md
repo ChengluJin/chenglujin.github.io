@@ -5,19 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=EFS4vZUAAAAJ&hl=en) and [dblp](https://dblp.org/pid/148/1500.html).<br>
+You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=Fxm2RTUAAAAJ&hl=en&oi=ao) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
+$^*$ denotes shared first-authorship
+
+[<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>]()<br>
+<b>Chenglu Jin</b>$^*$, Chao Yin$^*$, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
+<i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>.
+
+[<b>Dynamic Group Time-based One-time Passwords</b>](https://ieeexplore.ieee.org/document/10494770)<br>
+Xuelian Cao, Zheng Yang, Jianting Ning, <b>Chenglu Jin</b>, Rongxing Lu, Zhiming Liu, and Jianying Zhou. <br>
+<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'24</b>)</i>.
 
 [<b>Masked Memory Primitive for Key Insulated Schemes</b>]()<br>
 Zachary DiMeglio, Jenna Bustami, Deniz Gurevin, <b>Chenglu Jin</b>, Marten van Dijk, and Omer Khan.<br>
 <i>IEEE International Symposium on Hardware-Oriented Security and Trust (<b>HOST'24</b>)</i>.
 
-[<b>Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain</b>]()<br>
+[<b>Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain</b>](https://dl.acm.org/doi/10.1145/3638769)<br>
 Qingzhi Liu, Yuchen Huang,  <b>Chenglu Jin</b>, Xiaohan Zhou, Ying Mao, Cagatay Catal, and Long Cheng. <br>
 <i>ACM Transactions on Multimedia Computing Communications and Applications (<b>TOMM'23</b>)</i>.
 
 [<b>Optimizing Proof of Aliveness in Cyber-Physical Systems</b>](https://ieeexplore.ieee.org/abstract/document/10324378)<br>
-Zheng Yang, <b>Chenglu Jin</b>, Xuelian Cao, Marten van Dijk, and Jianying Zhou. <br>
+Zheng Yang$^*$, <b>Chenglu Jin</b>$^*$, Xuelian Cao, Marten van Dijk, and Jianying Zhou. <br>
 <i>IEEE Transactions on Dependable and Secure Computing (<b>TDSC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33586))
 
 [<b>Secure Remote Attestation with Strong Key Insulation Guarantees</b>](https://ieeexplore.ieee.org/document/10168259)<br>
@@ -29,7 +38,7 @@ Marten van Dijk, and <b>Chenglu Jin</b>. <br>
 <i>Journal of Cryptology (<b>JoC'23</b>)</i>. 
 
 [<b>HMACCE: Establishing Authenticated and Confidential Channel From Historical Data for Industrial Internet of Things</b>](https://ieeexplore.ieee.org/document/10007864)<br>
-<b>Chenglu Jin</b>, Zheng Yang, Tao Xiang, Sridhar Adepu, and Jianying Zhou. <br>
+<b>Chenglu Jin</b>$^*$, Zheng Yang$^*$, Tao Xiang, Sridhar Adepu, and Jianying Zhou. <br>
 <i>IEEE Transactions on Information Forensics and Security (<b>TIFS'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/31499))
 
 [<b>Programmable Access-Controlled and Generic Erasable PUF Design and Its Applications</b>](https://link.springer.com/article/10.1007/s13389-022-00284-z)<br>
@@ -45,7 +54,7 @@ Zheng Yang, Zhiting Bao, <b>Chenglu Jin</b>, Zhe Liu, and Jianying Zhou.<br>
 <i>IACR Transactions on Symmetric Cryptology (<b>ToSC'21</b>)</i>. ([Artifact](https://github.com/PLCrypto/PLCrypto)) 
 
 [<b>HACK3D: Crowdsourcing the Assessment of Cybersecurity in Digital Manufacturing</b>](https://ieeexplore.ieee.org/abstract/document/9585150)<br>
-Michael Linares, Nishant Aswani, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.<br>
+Michael Linares$^*$, Nishant Aswani$^*$, Gary Mac, <b>Chenglu Jin</b>, Fei Chen, Nikhil Gupta, and Ramesh Karri.<br>
 <i><b>IEEE Computer'21</b></i>. ([Online archive](https://ir.cwi.nl/pub/31211))
 
 [<b>Lightweight Delegated Authentication with Identity Fraud Detection for Cyber-physical Systems</b>](https://dl.acm.org/doi/abs/10.1145/3457339.3457984)<br>
@@ -65,7 +74,7 @@ Zheng Yang, <b>Chenglu Jin</b>, Yangguang Tian, Junyu Lai, and Jianying Zhou. <b
 <i>ACM Asia Conference on Computer and Communications Security (<b>AsiaCCS'20</b>)</i>. ([Presentation](https://dl.acm.org/doi/abs/10.1145/3320269.3372195))
 
 [<b>Proof of Aliveness</b>](https://dl.acm.org/citation.cfm?id=3359827)<br>
-<b>Chenglu Jin</b>, Zheng Yang, Marten van Dijk, and Jianying Zhou. <br>
+<b>Chenglu Jin</b>$^*$, Zheng Yang$^*$, Marten van Dijk, and Jianying Zhou. <br>
 <i>Annual Computer Security Applications Conference (<b>ACSAC'19</b>)</i>. ([Artifact](https://github.com/ChengluJin/Proof_of_Aliveness), [Slides](https://www.acsac.org/2019/program/final/1/174.pdf))
 
 [<b>The Interpose PUF: Secure PUF Design against State-of-the-art Machine Learning Attacks</b>](https://tches.iacr.org/index.php/TCHES/article/view/8351)<br>
