@@ -7,7 +7,9 @@ author_profile: true
 
 ## University of Amsterdam
 
-<i>Cryptographic Engineering</i>, March 2023, Guest Lecturer
+<i>Research Project in Security and Network Engineering</i>, Spring 2024, Mentor
+
+<i>Cryptographic Engineering</i>, March 2023, March 2024, Guest Lecturer
 
 ## King Abdullah University of Science and Technology
 

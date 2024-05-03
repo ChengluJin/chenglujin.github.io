@@ -5,7 +5,7 @@ permalink: /services/
 author_profile: true
 ---
 
-### Leader
+### Co-Leader
 
 - Hardware and Cyber-Physical System Security Working Group in ACademic Cyber Security Society in the Netherlands ([ACCSS](https://accss.nl/))
 
@@ -19,15 +19,16 @@ author_profile: true
 
 ### Program Committee Member
 
+- IEEE Conference on Communications and Network Security (CNS'22, 23, 24)
+- IEEE International Conference on Omni-Layer Intelligent Systems (COINS'23, 24)
+- Malicious Software and Hardware in Internet of Things (MaL-IoT'23, 24)
+- IEEE International Conference on Cyber, Physical and Social Computing (CPSCom’24)
 - ACM Cyber-Physical System Security Workshop (CPSS'24)
 - Applied Research Competition in North American Region (CSAW’20, 23)
 - ACM Cloud Computing Security Workshop (CCSW’21, 22, 23)
 - International Symposium on Quality Electronic Design (ISQED’20, 21, 22, 23, 24) 
 - International Workshop on Security and Trust Management (STM’21, 22, 23)
 - Workshop on Attacks and Solutions in Hardware Security (ASHES’20, 21, 22, 23)
-- IEEE International Conference on Omni-Layer Intelligent Systems (COINS'23)
-- IEEE Conference on Communications and Network Security (CNS'22, 23)
-- Malicious Software and Hardware in Internet of Things (MaL-IoT'23)
 - IEEE International Conference on Metaverse Computing, Networking and Applications (MetaCom’23)
 - IFIP International Internet of Things Conference (IFIP IoT’21, 22)
 - International Conference on Information and Communications Security (ICICS’19, 20, 21, 22)
@@ -45,7 +46,9 @@ author_profile: true
 - IEEE Transactions on Power Systems (TPWRS)
 - IEEE Tran. on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
 - IEEE Transactions on Very Large Scale Integration Systems (TVLSI)
-- IEEE IEEE Transactions on Circuits and Systems I (TCAS-I)
+- IEEE Transactions on Circuits and Systems I (TCAS-I)
+- IEEE Transactions on Industrial Informatics (TII) 
+- IEEE Transactions on Reliability (TR)
 - IEEE Transactions on Consumer Electronics (TCE)
 - IEEE Security & Privacy (SP)
 - IEEE Computer Architecture Letters (CAL)
