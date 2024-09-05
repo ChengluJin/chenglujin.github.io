@@ -9,6 +9,11 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 
 <sup>*</sup> denotes shared first-authorship
 
+
+[<b>Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks</b>]()<br>
+Sirui Shen and <b>Chenglu Jin</b>. <br>
+<i>Annual Computer Security Applications Conference (<b>ACSAC'24</b>)</i>. 
+
 [<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>]()<br>
 <b>Chenglu Jin</b><sup>*</sup>, Chao Yin<sup>*</sup>, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
 <i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>.

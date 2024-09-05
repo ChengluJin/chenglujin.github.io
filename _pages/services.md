@@ -19,7 +19,10 @@ author_profile: true
 
 ### Program Committee Member
 
+- International Symposium on Quality Electronic Design (ISQED'20, 21, 22, 23, 24, 25) 
+- ACM Asia Conference on Computer and Communications Security (AsiaCCS'25)
 - IACR Conference on Cryptographic Hardware and Embedded Systems (CHES'25)
+- ACM Cloud Computing Security Workshop (CCSW'21, 22, 23, 24)
 - Workshop on Attacks and Solutions in Hardware Security (ASHES'20, 21, 22, 23, 24)
 - International Workshop on Security and Trust Management (STM'21, 22, 23, 24)
 - IEEE Conference on Communications and Network Security (CNS'22, 23, 24)
@@ -28,7 +31,6 @@ author_profile: true
 - IEEE International Conference on Cyber, Physical and Social Computing (CPSCom'24)
 - ACM Cyber-Physical System Security Workshop (CPSS'24)
 - Applied Research Competition in North American Region (CSAW'20, 23)
-- ACM Cloud Computing Security Workshop (CCSW'21, 22, 23)
 - International Symposium on Quality Electronic Design (ISQED'20, 21, 22, 23, 24) 
 - IEEE International Conference on Metaverse Computing, Networking and Applications (MetaCom'23)
 - IFIP International Internet of Things Conference (IFIP IoT'21, 22)
