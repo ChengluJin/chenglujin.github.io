@@ -7,7 +7,7 @@ author_profile: true
 
 You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=Fxm2RTUAAAAJ&hl=en&oi=ao) and [dblp](https://dblp.org/pid/148/1500.html).<br>
 
-<sup>*</sup> denotes shared first-authorship
+<sup>*</sup> denotes shared first authorship
 
 
 [<b>Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks</b>]()<br>
