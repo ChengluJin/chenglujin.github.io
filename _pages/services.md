@@ -19,8 +19,8 @@ author_profile: true
 
 ### Program Committee Member
 
-- ACM Conference on Computer and Communications Security (CCS’25)
-- International Conference on Financial Cryptography and Data Security (FC’25)
+- ACM Conference on Computer and Communications Security (CCS'25)
+- International Conference on Financial Cryptography and Data Security (FC'25)
 - International Symposium on Quality Electronic Design (ISQED'20, 21, 22, 23, 24, 25) 
 - ACM Asia Conference on Computer and Communications Security (AsiaCCS'25)
 - IACR Conference on Cryptographic Hardware and Embedded Systems (CHES'25)
