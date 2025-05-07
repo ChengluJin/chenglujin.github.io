@@ -10,11 +10,19 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 <sup>*</sup> denotes shared first authorship
 
 
-[<b>Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks</b>]()<br>
+[<b>Breaking XOR Arbiter PUFs with Chosen Challenge Attack</b>](https://ieeexplore.ieee.org/document/10982292)<br>
+Niloufar Sayadi, Phuong Ha Nguyen, Marten van Dijk, and <b>Chenglu Jin</b>. <br>
+<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'25</b>)</i>.
+
+[<b>Making Deals with the Devils: the Art of Negotiation after Ransomware Attacks</b>]()<br>
+Haohui Zhang, Xinyu Hu, and <b>Chenglu Jin</b>. <br>
+<i>International Workshop on Security Protocols (<b>SPW'25</b>)</i>.
+
+[<b>Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks</b>](https://ieeexplore.ieee.org/document/10917952)<br>
 Sirui Shen and <b>Chenglu Jin</b>. <br>
 <i>Annual Computer Security Applications Conference (<b>ACSAC'24</b>)</i>. 
 
-[<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>]()<br>
+[<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>](https://dl.acm.org/doi/abs/10.1145/3658644.3670343)<br>
 <b>Chenglu Jin</b><sup>*</sup>, Chao Yin<sup>*</sup>, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
 <i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>.
 
@@ -22,7 +30,7 @@ Sirui Shen and <b>Chenglu Jin</b>. <br>
 Xuelian Cao, Zheng Yang, Jianting Ning, <b>Chenglu Jin</b>, Rongxing Lu, Zhiming Liu, and Jianying Zhou. <br>
 <i>IEEE Transactions on Information Forensics and Security (<b>TIFS'24</b>)</i>.
 
-[<b>Masked Memory Primitive for Key Insulated Schemes</b>]()<br>
+[<b>Masked Memory Primitive for Key Insulated Schemes</b>](https://ieeexplore.ieee.org/abstract/document/10545375)<br>
 Zachary DiMeglio, Jenna Bustami, Deniz Gurevin, <b>Chenglu Jin</b>, Marten van Dijk, and Omer Khan.<br>
 <i>IEEE International Symposium on Hardware-Oriented Security and Trust (<b>HOST'24</b>)</i>.
 
