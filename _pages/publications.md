@@ -9,10 +9,9 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 
 <sup>*</sup> denotes shared first authorship
 
-
-[<b>Breaking XOR Arbiter PUFs with Chosen Challenge Attack</b>](https://ieeexplore.ieee.org/document/10982292)<br>
+[<b>Breaking XOR Arbiter PUFs with Chosen Challenge Attack</b>](https://ieeexplore.ieee.org/abstract/document/10982292/)<br>
 Niloufar Sayadi, Phuong Ha Nguyen, Marten van Dijk, and <b>Chenglu Jin</b>. <br>
-<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'25</b>)</i>.
+<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'25</b>)</i>. ([Artifact](https://github.com/niloufarsyd/Chosen_Challenge_Attack), [Online archive](https://ir.cwi.nl/pub/35170))
 
 [<b>Making Deals with the Devils: the Art of Negotiation after Ransomware Attacks</b>]()<br>
 Haohui Zhang, Xinyu Hu, and <b>Chenglu Jin</b>. <br>
@@ -20,27 +19,27 @@ Haohui Zhang, Xinyu Hu, and <b>Chenglu Jin</b>. <br>
 
 [<b>Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks</b>](https://ieeexplore.ieee.org/document/10917952)<br>
 Sirui Shen and <b>Chenglu Jin</b>. <br>
-<i>Annual Computer Security Applications Conference (<b>ACSAC'24</b>)</i>. 
+<i>Annual Computer Security Applications Conference (<b>ACSAC'24</b>)</i>. ([Artifact1](https://github.com/NomadShen/chipwhisperer), [Artifact2](https://github.com/NomadShen/fpga_based_attack), [Artifact3](https://doi.org/10.6084/m9.figshare.27284547.v1), [Online archive](https://ir.cwi.nl/pub/35168))
 
 [<b>PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery</b>](https://dl.acm.org/doi/abs/10.1145/3658644.3670343)<br>
 <b>Chenglu Jin</b><sup>*</sup>, Chao Yin<sup>*</sup>, Marten van Dijk, Sisi Duan, Fabio Massacci, Michael K. Reiter, and Haibin Zhang.<br>
-<i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>.
+<i>ACM Conference on Computer and Communications Security (<b>CCS'24</b>)</i>. ([Artifact](https://figshare.com/articles/software/PG_source_code/25669026), [Online archive](https://ir.cwi.nl/pub/34722), [Slides1](../files/PG_CCS.pdf), [Slides2](../files/PG.pdf))
 
 [<b>Dynamic Group Time-based One-time Passwords</b>](https://ieeexplore.ieee.org/document/10494770)<br>
 Xuelian Cao, Zheng Yang, Jianting Ning, <b>Chenglu Jin</b>, Rongxing Lu, Zhiming Liu, and Jianying Zhou. <br>
-<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'24</b>)</i>.
+<i>IEEE Transactions on Information Forensics and Security (<b>TIFS'24</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/34124))
 
 [<b>Masked Memory Primitive for Key Insulated Schemes</b>](https://ieeexplore.ieee.org/abstract/document/10545375)<br>
 Zachary DiMeglio, Jenna Bustami, Deniz Gurevin, <b>Chenglu Jin</b>, Marten van Dijk, and Omer Khan.<br>
-<i>IEEE International Symposium on Hardware-Oriented Security and Trust (<b>HOST'24</b>)</i>.
+<i>IEEE International Symposium on Hardware-Oriented Security and Trust (<b>HOST'24</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/34270))
 
 [<b>Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain</b>](https://dl.acm.org/doi/10.1145/3638769)<br>
 Qingzhi Liu, Yuchen Huang,  <b>Chenglu Jin</b>, Xiaohan Zhou, Ying Mao, Cagatay Catal, and Long Cheng. <br>
-<i>ACM Transactions on Multimedia Computing Communications and Applications (<b>TOMM'23</b>)</i>.
+<i>ACM Transactions on Multimedia Computing Communications and Applications (<b>TOMM'23</b>)</i>.  ([Online archive](https://ir.cwi.nl/pub/34794))
 
 [<b>Optimizing Proof of Aliveness in Cyber-Physical Systems</b>](https://ieeexplore.ieee.org/abstract/document/10324378)<br>
 Zheng Yang<sup>*</sup>, <b>Chenglu Jin</b><sup>*</sup>, Xuelian Cao, Marten van Dijk, and Jianying Zhou. <br>
-<i>IEEE Transactions on Dependable and Secure Computing (<b>TDSC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33586))
+<i>IEEE Transactions on Dependable and Secure Computing (<b>TDSC'23</b>)</i>. ([Online archive](https://ir.cwi.nl/pub/33586), [Slides](../files/PoA_RICSS2024.pdf))
 
 [<b>Secure Remote Attestation with Strong Key Insulation Guarantees</b>](https://ieeexplore.ieee.org/document/10168259)<br>
 Deniz Gurevin, <b>Chenglu Jin</b>, Phuong Ha Nguyen, Omer Khan, and Marten van Dijk. <br>
