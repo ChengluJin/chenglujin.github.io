@@ -9,11 +9,15 @@ author_profile: true
 
 <i>Research Project in Security and Network Engineering</i>, Spring 2024, Mentor
 
-<i>Cryptographic Engineering</i>, March 2023, March 2024, Guest Lecturer
+<i>Cryptographic Engineering</i>, March 2023, March 2024, March 2025, Guest Lecturer
+
+<i>Data Protection Technologies</i>, March 2025, Guest Lecturer
+
+<i>Introduction to Security</i>, September 2024, Guest Lecturer
 
 ## King Abdullah University of Science and Technology
 
-<i>Computer Systems Security</i>, April 2022, November 2022, November 2023, Guest Lecturer
+<i>Computer Systems Security</i>, April 2022, November 2022, November 2023, November 2024, Guest Lecturer
 
 ## New York University
 
