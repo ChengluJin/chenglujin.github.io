@@ -10,7 +10,7 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 <sup>*</sup> denotes shared first authorship
 
 [<b>CacheGuardian: A Timing Side-Channel Resilient LLC Design.</b>]()<br>
-Ziang Zhou, Qi Zhu, Hao Lan, Huifeng Zhu, Wei Yan, <b>Chenglu Jin</b>, Xuejun An, and Xiaochun Ye . <br>
+Ziang Zhou, Qi Zhu, Hao Lan, Huifeng Zhu, Wei Yan, <b>Chenglu Jin</b>, Xuejun An, and Xiaochun Ye. <br>
 <i>International Conference on Computer-Aided Design (<b>ICCAD'25</b>)</i>. 
 
 [<b>Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design</b>]()<br>
