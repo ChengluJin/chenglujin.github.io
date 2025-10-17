@@ -13,7 +13,7 @@ You can also find my publications on [Google Scholar](https://scholar.google.com
 Ziang Zhou, Qi Zhu, Hao Lan, Huifeng Zhu, Wei Yan, <b>Chenglu Jin</b>, Xuejun An, and Xiaochun Ye. <br>
 <i>International Conference on Computer-Aided Design (<b>ICCAD'25</b>)</i>. 
 
-[<b>Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design</b>]()<br>
+[<b>Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design</b>](https://link.springer.com/chapter/10.1007/978-3-032-08064-6_12)<br>
 Haohui Zhang, Sirui Shen, Xinyu Hu, and <b>Chenglu Jin</b>. <br>
 <i>Conference on Game Theory and AI for Security (<b>GameSec'25</b>)</i>. ([Artifact](https://github.com/NomadShen/TinyGarble2.0), [Online archive](https://arxiv.org/abs/2508.15844))
 
