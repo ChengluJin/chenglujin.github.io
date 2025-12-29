@@ -21,7 +21,7 @@ author_profile: true
                 id: 1,
                 title: "CacheGuardian: A Timing Side-Channel Resilient LLC Design.",
                 authors: ["Ziang Zhou", "Qi Zhu", "Hao Lan", "Huifeng Zhu", "Wei Yan", "Chenglu Jin", "Xuejun An", "Xiaochun Ye"],
-                venue: "ICCAD'25",
+                venue: "International Conference on Computer-Aided Design (ICCAD'25)",
                 year: 2025,
                 tags: ["Hardware Security", "Architecture"],
                 links: { Paper: "#" }
@@ -127,6 +127,8 @@ author_profile: true
                 );
             }, [selectedTags]);
 
+const formatVenue = (venueStr) => {const parts = venueStr.split(/((.*))/);return parts.map((part, i) => {if (part.startsWith('(') && part.endsWith(')')) {return <strong key={i}>{part}</strong>;}return part;});};
+
             return (
                 <div className="min-h-screen bg-white text-[#333] py-12 px-4 sm:px-6 lg:px-8 leading-relaxed">
                     <div className="max-w-3xl mx-auto">
@@ -134,7 +136,7 @@ author_profile: true
                             <h1 className="text-3xl font-bold text-black tracking-tight">Publications</h1>
                             <div className="mt-4 flex flex-col gap-1 font-sans">
                                 <p className="text-sm text-gray-500">
-                                    Full list on <a href="https://scholar.google.com/citations?user=Fxm2RTUAAAAJ" className="text-blue-600 hover:underline">Google Scholar</a>.
+				    You can also find my publications on <a href="https://scholar.google.com/citations?user=Fxm2RTUAAAAJ" className="text-blue-600 hover:underline">Google Scholar</a> and <a href="https://dblp.org/pid/148/1500.html" className="text-blue-600 hover:underline">dblp</a>
                                 </p>
                                 <p className="text-xs text-gray-400 italic">
                                     <sup>*</sup> denotes shared first authorship
