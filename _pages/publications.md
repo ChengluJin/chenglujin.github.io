@@ -30,7 +30,7 @@ author_profile: true
                 id: 2,
                 title: "Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design",
                 authors: ["Haohui Zhang", "Sirui Shen", "Xinyu Hu", "Chenglu Jin"],
-                venue: "GameSec'25",
+                venue: "Conference on Game Theory and AI for Security (GameSec'25)",
                 year: 2025,
                 tags: ["Privacy", "Security", "Game Theory"],
                 links: { Paper: "https://link.springer.com/chapter/10.1007/978-3-032-08064-6_12", Artifact: "https://github.com/NomadShen/TinyGarble2.0", Archive: "https://arxiv.org/abs/2508.15844" }
@@ -39,7 +39,7 @@ author_profile: true
                 id: 3,
                 title: "Breaking XOR Arbiter PUFs with Chosen Challenge Attack",
                 authors: ["Niloufar Sayadi", "Phuong Ha Nguyen", "Marten van Dijk", "Chenglu Jin"],
-                venue: "TIFS'25",
+                venue: "IEEE Transactions on Information Forensics and Security (TIFS'25)",
                 year: 2025,
                 tags: ["Hardware Security", "PUF", "Cryptography"],
                 links: { Paper: "https://ieeexplore.ieee.org/abstract/document/10982292/", Artifact: "https://github.com/niloufarsyd/Chosen_Challenge_Attack" }
