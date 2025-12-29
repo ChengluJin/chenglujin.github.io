@@ -127,7 +127,7 @@ author_profile: true
                 );
             }, [selectedTags]);
 
-const formatVenue = (venueStr) => {const parts = venueStr.split(/((.*))/);return parts.map((part, i) => {if (part.startsWith('(') && part.endsWith(')')) {return <strong key={i}>{part}</strong>;}return part;});};
+const formatVenue = (venueStr) => {const parts = venueStr.split(/(\(.*\))/g);return parts.map((part, i) => {if (part.startsWith('(') && part.endsWith(')')) {return <strong key={i}>{part}</strong>;}return part;});};
 
             return (
                 <div className="min-h-screen bg-white text-[#333] py-12 px-4 sm:px-6 lg:px-8 leading-relaxed">
