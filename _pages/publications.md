@@ -3,7 +3,6 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-permalink: /publications/
 ---
 
 <div id="publications-root"></div>

@@ -1,2 +1,15 @@
 _site/
+Backup files
+
+Files ending with a tilde
+
+*~
+
+Undo files
+
+Persistent undo history
+
+*.un~
+
+
 
