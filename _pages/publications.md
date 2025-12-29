@@ -90,6 +90,15 @@ id: 8,
     links: { Paper: "https://ieeexplore.ieee.org/abstract/document/10545375" }
 },
 {
+id: 9,
+    title: "Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain",
+    authors: ["Qingzhi Liu", "Yuchen Huang", "Chenglu Jin", "Xiaohan Zhou", "Ying Mao", "Cagatay Catal", "Long Cheng"],
+    venue: "ACM Transactions on Multimedia Computing Communications and Applications (TOMM'23)",
+    year: 2023,
+    tags: ["Hardware Security", "Cryptography"],
+    links: { Paper: "https://dl.acm.org/doi/10.1145/3638769", Online Archive: "https://ir.cwi.nl/pub/34794)"}
+},
+{
 id: 10,
     title: "Optimizing Proof of Aliveness in Cyber-Physical Systems",
     authors: ["Zheng Yang*", "Chenglu Jin*", "Xuelian Cao", "Marten van Dijk", "Jianying Zhou"],
@@ -128,13 +137,13 @@ const App = () => {
 			}, [selectedTags]);
 
 	const formatVenue = (venueStr) => {
-		const parts = venueStr.split(/((.))/g);
-		return parts.map((part, i) => {
-				if (part && part.startsWith('(') && part.endsWith(')')) {
-				return <strong key={i} className="font-bold text-black">{part}</strong>;
-				}
-				return part;
-				});
+		const parts = venueStr.split(/(\(.*\))/g):
+			return parts.map((part, i) => {
+					if (part && part.startsWith('(') && part.endsWith(')')) {
+					return <strong key={i} className="font-bold text-black">{part}</strong>;
+					}
+					return part;
+					});
 	};
 
 	return (
@@ -189,7 +198,7 @@ const App = () => {
 								</span>
 								))}
 					</div>
-					<div className="text-[14px] text-gray-500 italic">{pub.venue}, {pub.year}</div>
+					<div className="text-[14px] text-gray-500 italic">{formatVenue(pub.venue)}, {pub.year}</div>
 					<div className="mt-2 flex gap-4">
 					{Object.entries(pub.links).map(([type, url]) => (
 								url !== "#" && <a key={type} href={url} target="_blank" className="text-[12px] font-sans font-bold text-blue-600 uppercase tracking-wider">[{type}]</a>
