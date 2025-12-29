@@ -34,7 +34,7 @@ permalink: /publications/
                 venue: "GameSec'25",
                 year: 2025,
                 tags: ["Privacy", "Security", "Game Theory"],
-                links: { Paper: "#", Artifact: "https://github.com/NomadShen/TinyGarble2.0", Archive: "https://arxiv.org/abs/2508.15844" }
+                links: { Paper: "https://link.springer.com/chapter/10.1007/978-3-032-08064-6_12", Artifact: "https://github.com/NomadShen/TinyGarble2.0", Archive: "https://arxiv.org/abs/2508.15844" }
             },
             {
                 id: 3,
