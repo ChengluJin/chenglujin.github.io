@@ -137,7 +137,7 @@ const App = () => {
 			}, [selectedTags]);
 
 	const formatVenue = (venueStr) => {
-		const parts = venueStr.split(/(\(.*\))/g):
+		const parts = venueStr.split(/((.*))/g):
 			return parts.map((part, i) => {
 					if (part && part.startsWith('(') && part.endsWith(')')) {
 					return <strong key={i} className="font-bold text-black">{part}</strong>;
