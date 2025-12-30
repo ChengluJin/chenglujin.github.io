@@ -177,7 +177,7 @@ author_profile: true
 </div>
 
 <script type="text/javascript">
-/* <![CDATA[ */
+(function() {
 (function() {
   var PUBLICATIONS_DATA = [
     {
@@ -438,5 +438,4 @@ author_profile: true
     init();
   }
 })();
-/* ]]> */
 </script>
