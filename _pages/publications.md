@@ -176,7 +176,8 @@ author_profile: true
   <div class="publications-list" id="publicationsList"></div>
 </div>
 
-<script>
+<script type="text/javascript">
+/* <![CDATA[ */
 (function() {
   var PUBLICATIONS_DATA = [
     {
@@ -429,4 +430,5 @@ author_profile: true
     renderPublications(PUBLICATIONS_DATA);
   }
 })();
+/* ]]> */
 </script>
