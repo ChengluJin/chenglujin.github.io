@@ -19,13 +19,6 @@ author_profile: true
     margin-bottom: 2rem;
   }
   
-  .pub-header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #000;
-  }
-  
   .pub-links {
     font-size: 0.9rem;
     color: #666;
@@ -183,11 +176,9 @@ author_profile: true
   <div class="publications-list" id="publicationsList"></div>
 </div>
 
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('Publications script loaded');
-  
-  const PUBLICATIONS_DATA = [
+<script>
+(function() {
+  var PUBLICATIONS_DATA = [
     {
       id: 1,
       title: "CacheGuardian: A Timing Side-Channel Resilient LLC Design.",
@@ -305,34 +296,48 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   ];
 
-  const allTags = Array.from(new Set(PUBLICATIONS_DATA.flatMap(p => p.tags))).sort();
-  let selectedTags = [];
+  var allTags = [];
+  var selectedTags = [];
+  
+  // Extract all unique tags
+  for (var i = 0; i < PUBLICATIONS_DATA.length; i++) {
+    for (var j = 0; j < PUBLICATIONS_DATA[i].tags.length; j++) {
+      if (allTags.indexOf(PUBLICATIONS_DATA[i].tags[j]) === -1) {
+        allTags.push(PUBLICATIONS_DATA[i].tags[j]);
+      }
+    }
+  }
+  allTags.sort();
 
   function formatVenue(venueStr) {
     return venueStr.replace(/(\(.*?\))/g, '<strong>$1</strong>');
   }
 
   function renderFilters() {
-    const container = document.getElementById('filterButtons');
-    container.innerHTML = allTags.map(tag => 
-      `<button class="filter-btn" data-tag="${tag}">${tag}</button>`
-    ).join('');
+    var container = document.getElementById('filterButtons');
+    var html = '';
     
-    const clearBtn = document.createElement('button');
-    clearBtn.className = 'clear-btn';
-    clearBtn.textContent = '[Clear]';
-    clearBtn.style.display = 'none';
-    clearBtn.onclick = clearFilters;
-    container.appendChild(clearBtn);
+    for (var i = 0; i < allTags.length; i++) {
+      html += '<button class="filter-btn" data-tag="' + allTags[i] + '">' + allTags[i] + '</button>';
+    }
+    
+    html += '<button class="clear-btn" id="clearBtn" style="display: none;">[Clear]</button>';
+    container.innerHTML = html;
 
-    container.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.onclick = () => toggleTag(btn.dataset.tag);
-    });
+    var buttons = container.querySelectorAll('.filter-btn');
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].onclick = (function(tag) {
+        return function() { toggleTag(tag); };
+      })(buttons[i].getAttribute('data-tag'));
+    }
+    
+    document.getElementById('clearBtn').onclick = clearFilters;
   }
 
   function toggleTag(tag) {
-    if (selectedTags.includes(tag)) {
-      selectedTags = selectedTags.filter(t => t !== tag);
+    var index = selectedTags.indexOf(tag);
+    if (index > -1) {
+      selectedTags.splice(index, 1);
     } else {
       selectedTags.push(tag);
     }
@@ -345,50 +350,83 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function updateUI() {
-    // Update filter buttons
-    document.querySelectorAll('.filter-btn').forEach(btn => {
-      btn.classList.toggle('active', selectedTags.includes(btn.dataset.tag));
-    });
+    var buttons = document.querySelectorAll('.filter-btn');
+    for (var i = 0; i < buttons.length; i++) {
+      var tag = buttons[i].getAttribute('data-tag');
+      if (selectedTags.indexOf(tag) > -1) {
+        buttons[i].classList.add('active');
+      } else {
+        buttons[i].classList.remove('active');
+      }
+    }
     
-    // Show/hide clear button
-    const clearBtn = document.querySelector('.clear-btn');
+    var clearBtn = document.getElementById('clearBtn');
     clearBtn.style.display = selectedTags.length > 0 ? 'inline-block' : 'none';
 
-    // Filter publications
-    const filtered = selectedTags.length === 0 
-      ? PUBLICATIONS_DATA 
-      : PUBLICATIONS_DATA.filter(pub => 
-          selectedTags.some(tag => pub.tags.includes(tag))
-        );
+    var filtered = [];
+    if (selectedTags.length === 0) {
+      filtered = PUBLICATIONS_DATA;
+    } else {
+      for (var i = 0; i < PUBLICATIONS_DATA.length; i++) {
+        var pub = PUBLICATIONS_DATA[i];
+        for (var j = 0; j < selectedTags.length; j++) {
+          if (pub.tags.indexOf(selectedTags[j]) > -1) {
+            filtered.push(pub);
+            break;
+          }
+        }
+      }
+    }
     
     renderPublications(filtered);
   }
 
   function renderPublications(pubs) {
-    const container = document.getElementById('publicationsList');
-    container.innerHTML = pubs.map(pub => `
-      <div class="publication">
-        <h3 class="pub-title">${pub.title}</h3>
-        <div class="pub-authors">
-          ${pub.authors.map(author => 
-            author.includes("Chenglu Jin") 
-              ? `<span class="pub-author-highlight">${author}</span>`
-              : author
-          ).join(', ')}
-        </div>
-        <div class="pub-venue">${formatVenue(pub.venue)}, ${pub.year}</div>
-        <div class="pub-paper-links">
-          ${Object.entries(pub.links).map(([type, url]) => 
-            `<a href="${url}" target="_blank" rel="noopener noreferrer">[${type}]</a>`
-          ).join('')}
-        </div>
-      </div>
-    `).join('');
+    var container = document.getElementById('publicationsList');
+    var html = '';
+    
+    for (var i = 0; i < pubs.length; i++) {
+      var pub = pubs[i];
+      html += '<div class="publication">';
+      html += '<h3 class="pub-title">' + pub.title + '</h3>';
+      html += '<div class="pub-authors">';
+      
+      for (var j = 0; j < pub.authors.length; j++) {
+        var author = pub.authors[j];
+        if (author.indexOf("Chenglu Jin") > -1) {
+          html += '<span class="pub-author-highlight">' + author + '</span>';
+        } else {
+          html += author;
+        }
+        if (j < pub.authors.length - 1) html += ', ';
+      }
+      
+      html += '</div>';
+      html += '<div class="pub-venue">' + formatVenue(pub.venue) + ', ' + pub.year + '</div>';
+      html += '<div class="pub-paper-links">';
+      
+      for (var key in pub.links) {
+        if (pub.links.hasOwnProperty(key)) {
+          html += '<a href="' + pub.links[key] + '" target="_blank" rel="noopener noreferrer">[' + key + ']</a>';
+        }
+      }
+      
+      html += '</div>';
+      html += '</div>';
+    }
+    
+    container.innerHTML = html;
   }
 
-  // Initialize
-  console.log('Initializing publications page');
-  renderFilters();
-  renderPublications(PUBLICATIONS_DATA);
-});
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      renderFilters();
+      renderPublications(PUBLICATIONS_DATA);
+    });
+  } else {
+    renderFilters();
+    renderPublications(PUBLICATIONS_DATA);
+  }
+})();
 </script>
