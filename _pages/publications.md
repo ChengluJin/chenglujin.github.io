@@ -164,7 +164,6 @@ author_profile: true
 
 <div class="publications-container">
   <header class="pub-header">
-    <h1>Publications</h1>
     <div class="pub-links">
       You can also find my publications on 
       <a href="https://scholar.google.com/citations?user=Fxm2RTUAAAAJ" target="_blank">Google Scholar</a> 
