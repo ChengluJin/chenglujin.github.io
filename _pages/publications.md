@@ -183,8 +183,10 @@ author_profile: true
   <div class="publications-list" id="publicationsList"></div>
 </div>
 
-<script>
-(function() {
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Publications script loaded');
+  
   const PUBLICATIONS_DATA = [
     {
       id: 1,
@@ -385,7 +387,8 @@ author_profile: true
   }
 
   // Initialize
+  console.log('Initializing publications page');
   renderFilters();
   renderPublications(PUBLICATIONS_DATA);
-})();
+});
 </script>
