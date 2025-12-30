@@ -420,14 +420,22 @@ author_profile: true
   }
 
   // Initialize when DOM is ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() {
+  function init() {
+    var filterContainer = document.getElementById('filterButtons');
+    var pubsContainer = document.getElementById('publicationsList');
+    
+    if (filterContainer && pubsContainer) {
       renderFilters();
       renderPublications(PUBLICATIONS_DATA);
-    });
+    } else {
+      setTimeout(init, 50);
+    }
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    renderFilters();
-    renderPublications(PUBLICATIONS_DATA);
+    init();
   }
 })();
 /* ]]> */
