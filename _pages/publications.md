@@ -136,15 +136,21 @@ const App = () => {
 					);
 			}, [selectedTags]);
 
+
 	const formatVenue = (venueStr) => {
-		const parts = venueStr.split(/((.*))/g):
-			return parts.map((part, i) => {
-					if (part && part.startsWith('(') && part.endsWith(')')) {
-					return <strong key={i} className="font-bold text-black">{part}</strong>;
-					}
-					return part;
-					});
+		const parts = venueStr.split(/(\(.*?\))/g);
+		return parts.map((part, i) => {
+				if (part.startsWith("(") && part.endsWith(")")) {
+				return (
+						<strong key={i} className="font-bold text-black">
+						{part}
+						</strong>
+				       );
+				}
+				return <span key={i}>{part}</span>;
+				});
 	};
+
 
 	return (
 			<div className="min-h-screen bg-white text-[#333] py-12 px-4 sm:px-6 lg:px-8 leading-relaxed">
