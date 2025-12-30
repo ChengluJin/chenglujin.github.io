@@ -176,266 +176,102 @@ author_profile: true
   <div class="publications-list" id="publicationsList"></div>
 </div>
 
-<script type="text/javascript">
-(function() {
-(function() {
-  var PUBLICATIONS_DATA = [
-    {
-      id: 1,
-      title: "CacheGuardian: A Timing Side-Channel Resilient LLC Design.",
-      authors: ["Ziang Zhou", "Qi Zhu", "Hao Lan", "Huifeng Zhu", "Wei Yan", "Chenglu Jin", "Xuejun An", "Xiaochun Ye"],
-      venue: "International Conference on Computer-Aided Design (ICCAD'25)",
-      year: 2025,
-      tags: ["Hardware Security", "Architecture"],
-      links: {}
-    },
-    {
-      id: 2,
-      title: "Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design",
-      authors: ["Haohui Zhang", "Sirui Shen", "Xinyu Hu", "Chenglu Jin"],
-      venue: "Conference on Game Theory and AI for Security (GameSec'25)",
-      year: 2025,
-      tags: ["Privacy", "Security", "Game Theory"],
-      links: { 
-        Paper: "https://link.springer.com/chapter/10.1007/978-3-032-08064-6_12", 
-        Artifact: "https://github.com/NomadShen/TinyGarble2.0", 
-        Archive: "https://arxiv.org/abs/2508.15844" 
-      }
-    },
-    {
-      id: 3,
-      title: "Breaking XOR Arbiter PUFs with Chosen Challenge Attack",
-      authors: ["Niloufar Sayadi", "Phuong Ha Nguyen", "Marten van Dijk", "Chenglu Jin"],
-      venue: "IEEE Transactions on Information Forensics and Security (TIFS'25)",
-      year: 2025,
-      tags: ["Hardware Security", "PUF", "Cryptography"],
-      links: { 
-        Paper: "https://ieeexplore.ieee.org/abstract/document/10982292/", 
-        Artifact: "https://github.com/niloufarsyd/Chosen_Challenge_Attack" 
-      }
-    },
-    {
-      id: 4,
-      title: "Making Deals with the Devils: the Art of Negotiation after Ransomware Attacks",
-      authors: ["Haohui Zhang", "Xinyu Hu", "Chenglu Jin"],
-      venue: "International Workshop on Security Protocols (SPW'25)",
-      year: 2025,
-      tags: ["Security", "Negotiation"],
-      links: {}
-    },
-    {
-      id: 5,
-      title: "Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks",
-      authors: ["Sirui Shen", "Chenglu Jin"],
-      venue: "Annual Computer Security Applications Conference (ACSAC'24)",
-      year: 2024,
-      tags: ["Hardware Security", "Cryptography", "Side-channel"],
-      links: { 
-        Paper: "https://ieeexplore.ieee.org/document/10917952", 
-        Artifact: "https://github.com/NomadShen/chipwhisperer" 
-      }
-    },
-    {
-      id: 6,
-      title: "PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery",
-      authors: ["Chenglu Jin*", "Chao Yin*", "Marten van Dijk", "Sisi Duan", "Fabio Massacci", "Michael K. Reiter", "Haibin Zhang"],
-      venue: "ACM Conference on Computer and Communications Security (CCS'24)",
-      year: 2024,
-      tags: ["Privacy", "Cyber-Physical Systems", "Security"],
-      links: { 
-        Paper: "https://dl.acm.org/doi/abs/10.1145/3658644.3670343", 
-        Artifact: "https://figshare.com/articles/software/PG_source_code/25669026" 
-      }
-    },
-    {
-      id: 7,
-      title: "Dynamic Group Time-based One-time Passwords",
-      authors: ["Xuelian Cao", "Zheng Yang", "Jianting Ning", "Chenglu Jin", "Rongxing Lu", "Zhiming Liu", "Jianying Zhou"],
-      venue: "IEEE Transactions on Information Forensics and Security (TIFS'24)",
-      year: 2024,
-      tags: ["Cryptography", "Security"],
-      links: { Paper: "https://ieeexplore.ieee.org/document/10494770" }
-    },
-    {
-      id: 8,
-      title: "Masked Memory Primitive for Key Insulated Schemes",
-      authors: ["Zachary DiMeglio", "Jenna Bustami", "Deniz Gurevin", "Chenglu Jin", "Marten van Dijk", "Omer Khan"],
-      venue: "IEEE International Symposium on Hardware-Oriented Security and Trust (HOST'24)",
-      year: 2024,
-      tags: ["Hardware Security", "Cryptography"],
-      links: { Paper: "https://ieeexplore.ieee.org/abstract/document/10545375" }
-    },
-    {
-      id: 9,
-      title: "Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain",
-      authors: ["Qingzhi Liu", "Yuchen Huang", "Chenglu Jin", "Xiaohan Zhou", "Ying Mao", "Cagatay Catal", "Long Cheng"],
-      venue: "ACM Transactions on Multimedia Computing Communications and Applications (TOMM'23)",
-      year: 2023,
-      tags: ["Hardware Security", "Cryptography"],
-      links: { 
-        Paper: "https://dl.acm.org/doi/10.1145/3638769", 
-        "Online Archive": "https://ir.cwi.nl/pub/34794" 
-      }
-    },
-    {
-      id: 10,
-      title: "Optimizing Proof of Aliveness in Cyber-Physical Systems",
-      authors: ["Zheng Yang*", "Chenglu Jin*", "Xuelian Cao", "Marten van Dijk", "Jianying Zhou"],
-      venue: "TDSC'23",
-      year: 2023,
-      tags: ["Cyber-Physical Systems", "Security"],
-      links: { Paper: "https://ieeexplore.ieee.org/abstract/document/10324378" }
-    },
-    {
-      id: 13,
-      title: "HMACCE: Establishing Authenticated and Confidential Channel From Historical Data for Industrial Internet of Things",
-      authors: ["Chenglu Jin*", "Zheng Yang*", "Tao Xiang", "Sridhar Adepu", "Jianying Zhou"],
-      venue: "TIFS'23",
-      year: 2023,
-      tags: ["IoT", "Security", "Cryptography"],
-      links: { Paper: "https://ieeexplore.ieee.org/document/10007864" }
-    }
-  ];
+<script>
+var pubData = [
+  {id: 1, title: "CacheGuardian: A Timing Side-Channel Resilient LLC Design.", authors: ["Ziang Zhou", "Qi Zhu", "Hao Lan", "Huifeng Zhu", "Wei Yan", "Chenglu Jin", "Xuejun An", "Xiaochun Ye"], venue: "International Conference on Computer-Aided Design (ICCAD'25)", year: 2025, tags: ["Hardware Security", "Architecture"], links: {}},
+  {id: 2, title: "Ransomware Negotiation: Dynamics and Privacy-Preserving Mechanism Design", authors: ["Haohui Zhang", "Sirui Shen", "Xinyu Hu", "Chenglu Jin"], venue: "Conference on Game Theory and AI for Security (GameSec'25)", year: 2025, tags: ["Privacy", "Security", "Game Theory"], links: {Paper: "https://link.springer.com/chapter/10.1007/978-3-032-08064-6_12", Artifact: "https://github.com/NomadShen/TinyGarble2.0", Archive: "https://arxiv.org/abs/2508.15844"}},
+  {id: 3, title: "Breaking XOR Arbiter PUFs with Chosen Challenge Attack", authors: ["Niloufar Sayadi", "Phuong Ha Nguyen", "Marten van Dijk", "Chenglu Jin"], venue: "IEEE Transactions on Information Forensics and Security (TIFS'25)", year: 2025, tags: ["Hardware Security", "PUF", "Cryptography"], links: {Paper: "https://ieeexplore.ieee.org/abstract/document/10982292/", Artifact: "https://github.com/niloufarsyd/Chosen_Challenge_Attack"}},
+  {id: 4, title: "Making Deals with the Devils: the Art of Negotiation after Ransomware Attacks", authors: ["Haohui Zhang", "Xinyu Hu", "Chenglu Jin"], venue: "International Workshop on Security Protocols (SPW'25)", year: 2025, tags: ["Security", "Negotiation"], links: {}},
+  {id: 5, title: "Reading It Like an Open Book: Single-trace Blind Side-channel Attacks on Garbled Circuit Frameworks", authors: ["Sirui Shen", "Chenglu Jin"], venue: "Annual Computer Security Applications Conference (ACSAC'24)", year: 2024, tags: ["Hardware Security", "Cryptography", "Side-channel"], links: {Paper: "https://ieeexplore.ieee.org/document/10917952", Artifact: "https://github.com/NomadShen/chipwhisperer"}},
+  {id: 6, title: "PG: Byzantine Fault-Tolerant and Privacy-Preserving Sensor Fusion with Guaranteed Output Delivery", authors: ["Chenglu Jin*", "Chao Yin*", "Marten van Dijk", "Sisi Duan", "Fabio Massacci", "Michael K. Reiter", "Haibin Zhang"], venue: "ACM Conference on Computer and Communications Security (CCS'24)", year: 2024, tags: ["Privacy", "Cyber-Physical Systems", "Security"], links: {Paper: "https://dl.acm.org/doi/abs/10.1145/3658644.3670343", Artifact: "https://figshare.com/articles/software/PG_source_code/25669026"}},
+  {id: 7, title: "Dynamic Group Time-based One-time Passwords", authors: ["Xuelian Cao", "Zheng Yang", "Jianting Ning", "Chenglu Jin", "Rongxing Lu", "Zhiming Liu", "Jianying Zhou"], venue: "IEEE Transactions on Information Forensics and Security (TIFS'24)", year: 2024, tags: ["Cryptography", "Security"], links: {Paper: "https://ieeexplore.ieee.org/document/10494770"}},
+  {id: 8, title: "Masked Memory Primitive for Key Insulated Schemes", authors: ["Zachary DiMeglio", "Jenna Bustami", "Deniz Gurevin", "Chenglu Jin", "Marten van Dijk", "Omer Khan"], venue: "IEEE International Symposium on Hardware-Oriented Security and Trust (HOST'24)", year: 2024, tags: ["Hardware Security", "Cryptography"], links: {Paper: "https://ieeexplore.ieee.org/abstract/document/10545375"}},
+  {id: 9, title: "Privacy and Integrity Protection for IoT Multimodal Data using Machine Learning and Blockchain", authors: ["Qingzhi Liu", "Yuchen Huang", "Chenglu Jin", "Xiaohan Zhou", "Ying Mao", "Cagatay Catal", "Long Cheng"], venue: "ACM Transactions on Multimedia Computing Communications and Applications (TOMM'23)", year: 2023, tags: ["Hardware Security", "Cryptography"], links: {Paper: "https://dl.acm.org/doi/10.1145/3638769", "Online Archive": "https://ir.cwi.nl/pub/34794"}},
+  {id: 10, title: "Optimizing Proof of Aliveness in Cyber-Physical Systems", authors: ["Zheng Yang*", "Chenglu Jin*", "Xuelian Cao", "Marten van Dijk", "Jianying Zhou"], venue: "TDSC'23", year: 2023, tags: ["Cyber-Physical Systems", "Security"], links: {Paper: "https://ieeexplore.ieee.org/abstract/document/10324378"}},
+  {id: 13, title: "HMACCE: Establishing Authenticated and Confidential Channel From Historical Data for Industrial Internet of Things", authors: ["Chenglu Jin*", "Zheng Yang*", "Tao Xiang", "Sridhar Adepu", "Jianying Zhou"], venue: "TIFS'23", year: 2023, tags: ["IoT", "Security", "Cryptography"], links: {Paper: "https://ieeexplore.ieee.org/document/10007864"}}
+];
 
-  var allTags = [];
-  var selectedTags = [];
-  
-  // Extract all unique tags
-  for (var i = 0; i < PUBLICATIONS_DATA.length; i++) {
-    for (var j = 0; j < PUBLICATIONS_DATA[i].tags.length; j++) {
-      if (allTags.indexOf(PUBLICATIONS_DATA[i].tags[j]) === -1) {
-        allTags.push(PUBLICATIONS_DATA[i].tags[j]);
-      }
-    }
+var allTags = [];
+var selTags = [];
+
+for (var i = 0; i < pubData.length; i++) {
+  for (var j = 0; j < pubData[i].tags.length; j++) {
+    if (allTags.indexOf(pubData[i].tags[j]) === -1) allTags.push(pubData[i].tags[j]);
   }
-  allTags.sort();
+}
+allTags.sort();
 
-  function formatVenue(venueStr) {
-    return venueStr.replace(/(\(.*?\))/g, '<strong>$1</strong>');
+function fmtVenue(v) {
+  return v.replace(/(\(.*?\))/g, '<strong>$1</strong>');
+}
+
+function drawFilters() {
+  var c = document.getElementById('filterButtons');
+  var h = '';
+  for (var i = 0; i < allTags.length; i++) {
+    h += '<button class="filter-btn" data-tag="' + allTags[i] + '">' + allTags[i] + '</button>';
   }
-
-  function renderFilters() {
-    var container = document.getElementById('filterButtons');
-    var html = '';
-    
-    for (var i = 0; i < allTags.length; i++) {
-      html += '<button class="filter-btn" data-tag="' + allTags[i] + '">' + allTags[i] + '</button>';
-    }
-    
-    html += '<button class="clear-btn" id="clearBtn" style="display: none;">[Clear]</button>';
-    container.innerHTML = html;
-
-    var buttons = container.querySelectorAll('.filter-btn');
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].onclick = (function(tag) {
-        return function() { toggleTag(tag); };
-      })(buttons[i].getAttribute('data-tag'));
-    }
-    
-    document.getElementById('clearBtn').onclick = clearFilters;
+  h += '<button class="clear-btn" id="clearBtn" style="display:none">[Clear]</button>';
+  c.innerHTML = h;
+  var btns = c.querySelectorAll('.filter-btn');
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].onclick = function() { togTag(this.getAttribute('data-tag')); };
   }
+  document.getElementById('clearBtn').onclick = function() { selTags = []; upd(); };
+}
 
-  function toggleTag(tag) {
-    var index = selectedTags.indexOf(tag);
-    if (index > -1) {
-      selectedTags.splice(index, 1);
-    } else {
-      selectedTags.push(tag);
-    }
-    updateUI();
+function togTag(t) {
+  var idx = selTags.indexOf(t);
+  if (idx > -1) selTags.splice(idx, 1);
+  else selTags.push(t);
+  upd();
+}
+
+function upd() {
+  var btns = document.querySelectorAll('.filter-btn');
+  for (var i = 0; i < btns.length; i++) {
+    if (selTags.indexOf(btns[i].getAttribute('data-tag')) > -1) btns[i].classList.add('active');
+    else btns[i].classList.remove('active');
   }
-
-  function clearFilters() {
-    selectedTags = [];
-    updateUI();
-  }
-
-  function updateUI() {
-    var buttons = document.querySelectorAll('.filter-btn');
-    for (var i = 0; i < buttons.length; i++) {
-      var tag = buttons[i].getAttribute('data-tag');
-      if (selectedTags.indexOf(tag) > -1) {
-        buttons[i].classList.add('active');
-      } else {
-        buttons[i].classList.remove('active');
-      }
+  document.getElementById('clearBtn').style.display = selTags.length > 0 ? 'inline-block' : 'none';
+  var filt = selTags.length === 0 ? pubData : pubData.filter(function(p) {
+    for (var i = 0; i < selTags.length; i++) {
+      if (p.tags.indexOf(selTags[i]) > -1) return true;
     }
-    
-    var clearBtn = document.getElementById('clearBtn');
-    clearBtn.style.display = selectedTags.length > 0 ? 'inline-block' : 'none';
+    return false;
+  });
+  drawPubs(filt);
+}
 
-    var filtered = [];
-    if (selectedTags.length === 0) {
-      filtered = PUBLICATIONS_DATA;
-    } else {
-      for (var i = 0; i < PUBLICATIONS_DATA.length; i++) {
-        var pub = PUBLICATIONS_DATA[i];
-        for (var j = 0; j < selectedTags.length; j++) {
-          if (pub.tags.indexOf(selectedTags[j]) > -1) {
-            filtered.push(pub);
-            break;
-          }
-        }
-      }
+function drawPubs(pubs) {
+  var c = document.getElementById('publicationsList');
+  var h = '';
+  for (var i = 0; i < pubs.length; i++) {
+    var p = pubs[i];
+    h += '<div class="publication"><h3 class="pub-title">' + p.title + '</h3><div class="pub-authors">';
+    for (var j = 0; j < p.authors.length; j++) {
+      var a = p.authors[j];
+      h += a.indexOf("Chenglu Jin") > -1 ? '<span class="pub-author-highlight">' + a + '</span>' : a;
+      if (j < p.authors.length - 1) h += ', ';
     }
-    
-    renderPublications(filtered);
+    h += '</div><div class="pub-venue">' + fmtVenue(p.venue) + ', ' + p.year + '</div><div class="pub-paper-links">';
+    for (var k in p.links) {
+      if (p.links.hasOwnProperty(k)) h += '<a href="' + p.links[k] + '" target="_blank">[' + k + ']</a>';
+    }
+    h += '</div></div>';
   }
+  c.innerHTML = h;
+}
 
-  function renderPublications(pubs) {
-    var container = document.getElementById('publicationsList');
-    var html = '';
-    
-    for (var i = 0; i < pubs.length; i++) {
-      var pub = pubs[i];
-      html += '<div class="publication">';
-      html += '<h3 class="pub-title">' + pub.title + '</h3>';
-      html += '<div class="pub-authors">';
-      
-      for (var j = 0; j < pub.authors.length; j++) {
-        var author = pub.authors[j];
-        if (author.indexOf("Chenglu Jin") > -1) {
-          html += '<span class="pub-author-highlight">' + author + '</span>';
-        } else {
-          html += author;
-        }
-        if (j < pub.authors.length - 1) html += ', ';
-      }
-      
-      html += '</div>';
-      html += '<div class="pub-venue">' + formatVenue(pub.venue) + ', ' + pub.year + '</div>';
-      html += '<div class="pub-paper-links">';
-      
-      for (var key in pub.links) {
-        if (pub.links.hasOwnProperty(key)) {
-          html += '<a href="' + pub.links[key] + '" target="_blank" rel="noopener noreferrer">[' + key + ']</a>';
-        }
-      }
-      
-      html += '</div>';
-      html += '</div>';
-    }
-    
-    container.innerHTML = html;
-  }
-
-  // Initialize when DOM is ready
-  function init() {
-    var filterContainer = document.getElementById('filterButtons');
-    var pubsContainer = document.getElementById('publicationsList');
-    
-    if (filterContainer && pubsContainer) {
-      renderFilters();
-      renderPublications(PUBLICATIONS_DATA);
-    } else {
-      setTimeout(init, 50);
-    }
-  }
-  
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+function go() {
+  if (document.getElementById('filterButtons') && document.getElementById('publicationsList')) {
+    drawFilters();
+    drawPubs(pubData);
   } else {
-    init();
+    setTimeout(go, 50);
   }
-})();
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go);
+else go();
 </script>
