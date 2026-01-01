@@ -1,21 +1,20 @@
 ---
-layout: archive
+layout: default
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
 <!-- 
-  This version is a Fragment designed to be placed inside your Jekyll theme.
-  It removes <html> and <body> tags to prevent conflicts with your site's layout.
+  This version uses standard HTML and is compatible with the jekyll-theme-primer.
+  It avoids complex Liquid tags to ensure the GitHub Pages build succeeds.
 -->
 
 <style>
     .pub-container {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
         color: #333;
     }
-    .markdown-body h3 {
+    .pub-container h3 {
         border-bottom: 1px solid #eee;
         padding-bottom: 8px;
         margin-top: 32px;
@@ -32,26 +31,25 @@ author_profile: true
     .pub-title {
         font-size: 1.1rem;
         font-weight: 700;
-        line-height: 1.4;
         margin-bottom: 4px;
         display: block;
-        color: #000;
+        color: #0366d6;
         text-decoration: none;
     }
     .pub-title:hover {
-        color: #2563eb;
+        text-decoration: underline;
     }
     .pub-authors {
-        color: #555;
+        color: #586069;
         margin-bottom: 4px;
     }
     .author-highlight {
         font-weight: 700;
-        color: #000;
+        color: #24292e;
     }
     .pub-venue {
         font-style: italic;
-        color: #666;
+        color: #6a737d;
         margin-bottom: 8px;
     }
     .pub-links {
@@ -60,7 +58,7 @@ author_profile: true
         gap: 12px;
     }
     .pub-links a {
-        color: #2563eb;
+        color: #0366d6;
         font-size: 0.85rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -74,12 +72,12 @@ author_profile: true
 <div class="pub-container">
     <p>
         You can also find my publications on 
-        <a href="https://scholar.google.com/citations?user=Fxm2RTUAAAAJ&hl=en&oi=ao" target="_blank" style="color: #2563eb;">Google Scholar</a> and 
-        <a href="https://dblp.org/pid/148/1500.html" target="_blank" style="color: #2563eb;">dblp</a>.
+        <a href="https://scholar.google.com/citations?user=Fxm2RTUAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> and 
+        <a href="https://dblp.org/pid/148/1500.html" target="_blank">dblp</a>.
     </p>
-    <p style="font-size: 0.85rem; color: #888; margin-top: 8px;"><sup>*</sup> denotes shared first authorship</p>
+    <p style="font-size: 0.85rem; color: #6a737d; margin-top: 8px;"><sup>*</sup> denotes shared first authorship</p>
 
-    <div class="markdown-body">
+    <div class="pub-list">
         <h3>2025</h3>
         <div class="publication-item">
             <span class="pub-title">CacheGuardian: A Timing Side-Channel Resilient LLC Design.</span>
@@ -200,7 +198,7 @@ author_profile: true
         <h3>2022</h3>
         <div class="publication-item">
             <a href="https://link.springer.com/article/10.1007/s13389-022-00284-z" class="pub-title">Programmable Access-Controlled and Generic Erasable PUF Design and Its Applications</a>
-            <div class="pub-authors"><span class="author-highlight">Chenglu Jin</span>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair.</div>
+            <div class="pub-authors"><span class="author-highlight">Chenglu Jin</span>, Wayne Burleson, Marten van Dijk, and Ulrich RÃ¼hrmair.</div>
             <div class="pub-venue">Journal of Cryptographic Engineering (<b>JCEN'22</b>)</div>
             <div class="pub-links">
                 <a href="https://ir.cwi.nl/pub/31493/">[Archive]</a>
@@ -256,7 +254,7 @@ author_profile: true
         <h3>2020</h3>
         <div class="publication-item">
             <a href="https://dl.acm.org/doi/10.1145/3411504.3421215" class="pub-title">Erasable PUFs: Formal Treatment and Generic Design</a>
-            <div class="pub-authors"><span class="author-highlight">Chenglu Jin</span>, Wayne Burleson, Marten van Dijk, and Ulrich Rührmair.</div>
+            <div class="pub-authors"><span class="author-highlight">Chenglu Jin</span>, Wayne Burleson, Marten van Dijk, and Ulrich RÃ¼hrmair.</div>
             <div class="pub-venue">Workshop on Attacks and Solutions in Hardware Security (<b>ASHES@CCS'20</b>)</div>
             <div class="pub-links">
                 <a href="https://ir.cwi.nl/pub/30393">[Archive]</a>
@@ -285,7 +283,7 @@ author_profile: true
 
         <div class="publication-item">
             <a href="https://tches.iacr.org/index.php/TCHES/article/view/8351" class="pub-title">The Interpose PUF: Secure PUF Design against State-of-the-art Machine Learning Attacks</a>
-            <div class="pub-authors">Phuong Ha Nguyen, Durga Prasad Sahoo, <span class="author-highlight">Chenglu Jin</span>, Kaleel Mahmood, Ulrich Rührmair, and Marten van Dijk.</div>
+            <div class="pub-authors">Phuong Ha Nguyen, Durga Prasad Sahoo, <span class="author-highlight">Chenglu Jin</span>, Kaleel Mahmood, Ulrich RÃ¼hrmair, and Marten van Dijk.</div>
             <div class="pub-venue">IACR Transactions on Cryptographic Hardware and Embedded Systems (<b>TCHES'19</b>)</div>
             <div class="pub-links">
                 <a href="https://github.com/scluconn/DA_PUF_Library">[Artifact]</a>
@@ -383,7 +381,7 @@ author_profile: true
         <h3>2016</h3>
         <div class="publication-item">
             <a href="http://ieeexplore.ieee.org/document/7110553" class="pub-title">Can Algorithm Diversity in Stream Cipher Implementation Thwart (Natural and) Malicious Faults?</a>
-            <div class="pub-authors">Xiaofei Guo, <span class="author-highlight">Chenglu Jin</span>, Chi Zhang, Athanasios Papadimitriou, David Hély, and Ramesh Karri.</div>
+            <div class="pub-authors">Xiaofei Guo, <span class="author-highlight">Chenglu Jin</span>, Chi Zhang, Athanasios Papadimitriou, David HÃ©ly, and Ramesh Karri.</div>
             <div class="pub-venue">IEEE Transactions on Emerging Topics in Computing (<b>TETC'16</b>)</div>
         </div>
 
