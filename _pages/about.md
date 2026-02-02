@@ -15,8 +15,13 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/).
 
 ## Honors and Awards
+* **Runner-up**, Dutch Cyber Security Best Research Paper Award (DCSRP), Technical Track, 2025 [Certificate](http://chenglujin.github.io/files/DCSRP-2025.pdf)
+* **Shortlisted**, Top Picks in Hardware and Embedded Security, 2025 
+* **Best Paper Award Candidate**, IEEE-NANO, 2019 
+* **1st Place and Iron Flag Award**, MITRE Embedded System Security Capture the Flag (eCTF), 2017 [Trophies] (http://chenglujin.github.io/files/MITRE-eCTF.jpg)
 * **Doctoral Dissertation Fellowship**, University of Connecticut, Spring 2019
-* **1st Place**, [MITRE Embedded System Security Capture the Flag (eCTF) Competition](https://mitrecyberacademy.org/competitions/embedded/), 2017
+
+## Prospective Ph.D. students and Postdocs
 
 <b>For Ph.D. students abroad</b>, if you are interested in working with us for 3 months in CWI Amsterdam, please check out the [Ph.D. internship program](https://www.cwi.nl/jobs/internship) at CWI. 
 
@@ -27,6 +32,8 @@ His research interests are hardware security, cyber-physical system security, an
 3. FPGA Programming
 4. PLC Programming
 5. Embedded System Design with MCUs
+6. Algorithmic Game Theory
+7. Formal Methods
 
 <b>For prospective postdocs</b>, We can host postdocs in our group at CWI through the following postdoc fellowship programs. If you are interested, please get in touch with us.
 
