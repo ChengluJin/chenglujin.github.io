@@ -14,6 +14,10 @@ Before joining CWI Amsterdam, he worked as a research assistant professor at [Ne
 
 His research interests are hardware security, cyber-physical system security, and applied cryptography. His doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/).
 
+## Honors and Awards
+* **Doctoral Dissertation Fellowship**, University of Connecticut, Spring 2019
+* **1st Place**, [MITRE Embedded System Security Capture the Flag (eCTF) Competition](https://mitrecyberacademy.org/competitions/embedded/), 2017
+
 <b>For Ph.D. students abroad</b>, if you are interested in working with us for 3 months in CWI Amsterdam, please check out the [Ph.D. internship program](https://www.cwi.nl/jobs/internship) at CWI. 
 
 <b>For prospective Ph.D. students</b>, if you are interested in working with me in security research, please feel free to contact me via email. If you are a <b>master student enrolled in one of the universities in the Netherlands</b>, you are welcome to conduct your thesis research at CWI. Background or experience on one (or more) of the following topics will be a plus:
@@ -28,3 +32,6 @@ His research interests are hardware security, cyber-physical system security, an
 
 1. [Marie Skłodowska-Curie Actions](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships)
 2. [ERCIM Alain Bensoussan Fellowship Program](https://fellowship.ercim.eu/) 
+
+
+
