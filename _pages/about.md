@@ -18,7 +18,7 @@ His research interests are hardware security, cyber-physical system security, an
 * **Runner-up**, Dutch Cyber Security Best Research Paper Award (DCSRP), Technical Track, 2025 [Certificate](http://chenglujin.github.io/files/DCSRP-2025.pdf)
 * **Shortlisted**, Top Picks in Hardware and Embedded Security, 2025 
 * **Best Paper Award Candidate**, IEEE-NANO, 2019 
-* **1st Place and Iron Flag Award**, MITRE Embedded System Security Capture the Flag (eCTF), 2017 [Trophies] (http://chenglujin.github.io/files/MITRE-eCTF.jpg)
+* **1st Place and Iron Flag Award**, MITRE Embedded System Security Capture the Flag (eCTF), 2017 [Trophies](http://chenglujin.github.io/files/MITRE-eCTF.jpg)
 * **Doctoral Dissertation Fellowship**, University of Connecticut, Spring 2019
 
 ## Prospective Ph.D. students and Postdocs
