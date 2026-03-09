@@ -9,6 +9,10 @@ author_profile: true
 
 - Hardware and Cyber-Physical System Security Working Group in ACademic Cyber Security Society in the Netherlands ([ACCSS](https://accss.nl/))
 
+### Associate Editor
+
+- [IEEE Transactions on Emerging Topics in Computing](https://www.computer.org/csdl/journal/ec) (TETC)
+
 ### Program Committee Chair
 
 - [International Workshop on Critical Infrastructure and Manufacturing System Security](https://cimssworkshop.github.io/) (CIMSS'21, 22)
