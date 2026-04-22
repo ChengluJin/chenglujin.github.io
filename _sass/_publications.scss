@@ -1,0 +1,90 @@
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+.pub-container {
+    line-height: 1.6;
+}
+
+.pub-container h3 {
+    border-bottom: 2px solid $border-color;
+    padding-bottom: 8px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.publication-item {
+    margin-bottom: 24px;
+    padding: 20px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.pub-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+    display: block;
+    color: $info-color;
+    text-decoration: none;
+}
+
+.pub-title:hover {
+    text-decoration: underline;
+}
+
+.pub-authors {
+    margin-bottom: 4px;
+}
+
+.author-highlight {
+    font-weight: 700;
+    color: $text-color;
+}
+
+.pub-venue {
+    font-style: italic;
+    margin-bottom: 8px;
+    color: $gray;
+}
+
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.pub-links a {
+    color: $info-color;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pub-links a:hover {
+    text-decoration: underline;
+}
+
+.pub-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.pub-tag {
+    background: rgba($info-color, 0.1);
+    color: $info-color;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 1px solid rgba($info-color, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
