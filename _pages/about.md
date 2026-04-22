@@ -10,7 +10,9 @@ redirect_from:
 
 I am a **Tenured Researcher** in the [Computer Security Group](https://www.cwi.nl/research/groups/computer-security) at [Centrum Wiskunde & Informatica (CWI Amsterdam)](https://cwi.nl) (the national research institute for mathematics and computer science in the Netherlands).
 
-> **Bridging the gap between hardware primitives, system architecture, and formal proofs.**
+<blockquote class="hero-quote">
+  <strong>Bridging the gap between hardware primitives, system architecture, and formal proofs.</strong>
+</blockquote>
 
 My research focuses on the **vertical integration of security**. I utilize **mathematical tools** to establish rigorous boundaries for **system architectures**, while leveraging a deep understanding of **physical-layer leakage and hardware primitives** to challenge and reinforce these theoretical foundations. I am particularly interested in hardware security, cyber-physical system security, and applied cryptography. My doctoral dissertation is ["Cryptographic Solutions for Cyber-Physical System Security"](https://opencommons.uconn.edu/dissertations/2268/).
 
@@ -29,13 +31,15 @@ Before joining CWI Amsterdam, I worked as a research assistant professor at [New
 
 **For prospective Ph.D. students**, if you are interested in working with me in security research, please feel free to contact me via email. If you are a **master student enrolled in one of the universities in the Netherlands**, you are welcome to conduct your thesis research at CWI. Background or experience on one (or more) of the following topics will be a plus:
 
-1. Cryptography
-2. System Security Research
-3. FPGA Programming
-4. PLC Programming
-5. Embedded System Design with MCUs
-6. Algorithmic Game Theory
-7. Formal Methods
+<div class="skills-grid">
+  <span class="skill-badge">Cryptography</span>
+  <span class="skill-badge">System Security Research</span>
+  <span class="skill-badge">FPGA Programming</span>
+  <span class="skill-badge">PLC Programming</span>
+  <span class="skill-badge">Embedded System Design with MCUs</span>
+  <span class="skill-badge">Algorithmic Game Theory</span>
+  <span class="skill-badge">Formal Methods</span>
+</div>
 
 **For prospective postdocs**, we can host postdocs in our group at CWI through the following postdoc fellowship programs. If you are interested, please get in touch with us.
 

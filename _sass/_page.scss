@@ -399,3 +399,36 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*
+   Custom Homepage Styles
+   ========================================================================== */
+
+.hero-quote {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: $info-color;
+  border-left: 4px solid $info-color;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  background: $lighter-gray;
+  padding: 1em;
+  border-radius: 0 $border-radius $border-radius 0;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin: 1.5em 0;
+}
+
+.skill-badge {
+  background-color: #f3f4f6;
+  color: #374151;
+  padding: 0.5em 1em;
+  border-radius: 9999px; /* Pill shape */
+  font-size: 0.875em;
+  font-weight: 500;
+  border: 1px solid #e5e7eb;
+}
