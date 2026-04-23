@@ -15,14 +15,14 @@ author_profile: true
     </p>
     <p style="font-size: 0.85rem; color: #6a737d; margin-top: 8px;"><sup>*</sup> denotes shared first authorship</p>
 
-    <!-- Filter Buttons - hardcoded for reliability -->
+    <!-- Filter Buttons -->
     <div id="filter-container" class="pub-filter-container">
-        <button class="filter-btn active" data-tag="all">All</button>
-        <button class="filter-btn" data-tag="Hardware Security">Hardware Security</button>
-        <button class="filter-btn" data-tag="Cryptography">Cryptography</button>
-        <button class="filter-btn" data-tag="CPS Security">CPS Security</button>
-        <button class="filter-btn" data-tag="Game Theory">Game Theory</button>
-        <button class="filter-btn" data-tag="Formal Methods">Formal Methods</button>
+        <button class="filter-btn active" onclick="filterPubs('all', this)">All</button>
+        <button class="filter-btn" onclick="filterPubs('Hardware Security', this)">Hardware Security</button>
+        <button class="filter-btn" onclick="filterPubs('Cryptography', this)">Cryptography</button>
+        <button class="filter-btn" onclick="filterPubs('CPS Security', this)">CPS Security</button>
+        <button class="filter-btn" onclick="filterPubs('Game Theory', this)">Game Theory</button>
+        <button class="filter-btn" onclick="filterPubs('Formal Methods', this)">Formal Methods</button>
     </div>
 
     <div class="pub-list">
@@ -542,63 +542,48 @@ author_profile: true
 </div>
 
 <script>
-(function initFilter() {
-    var filterContainer = document.getElementById('filter-container');
-    var pubList = document.querySelector('.pub-list');
-
-    if (!filterContainer || !pubList) {
-        setTimeout(initFilter, 100);
-        return;
+function filterPubs(selectedTag, clickedBtn) {
+    // Update active button
+    var btns = document.querySelectorAll('.filter-btn');
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].classList.remove('active');
     }
+    clickedBtn.classList.add('active');
 
-    filterContainer.addEventListener('click', function(e) {
-        if (!e.target.classList.contains('filter-btn')) return;
-
-        // Update active class
-        var allBtns = filterContainer.querySelectorAll('.filter-btn');
-        for (var i = 0; i < allBtns.length; i++) {
-            allBtns[i].classList.remove('active');
-        }
-        e.target.classList.add('active');
-
-        var selectedTag = e.target.getAttribute('data-tag');
-
-        // Re-query items and years fresh on every click
-        var items = document.querySelectorAll('.publication-item');
-        var years = document.querySelectorAll('.pub-list h3');
-
-        // Filter items
-        for (var j = 0; j < items.length; j++) {
-            var item = items[j];
-            if (selectedTag === 'all') {
-                item.style.display = '';
-            } else {
-                var tagEls = item.querySelectorAll('.pub-tag');
-                var match = false;
-                for (var k = 0; k < tagEls.length; k++) {
-                    if (tagEls[k].textContent.trim() === selectedTag) {
-                        match = true;
-                        break;
-                    }
-                }
-                item.style.display = match ? '' : 'none';
-            }
-        }
-
-        // Show/hide year headers
-        for (var y = 0; y < years.length; y++) {
-            var yearHeader = years[y];
-            var next = yearHeader.nextElementSibling;
-            var hasVisible = false;
-            while (next && next.tagName !== 'H3') {
-                if (next.classList.contains('publication-item') && next.style.display !== 'none') {
-                    hasVisible = true;
+    // Filter publication items
+    var items = document.querySelectorAll('.publication-item');
+    for (var j = 0; j < items.length; j++) {
+        var item = items[j];
+        if (selectedTag === 'all') {
+            item.style.display = '';
+        } else {
+            var tagEls = item.querySelectorAll('.pub-tag');
+            var match = false;
+            for (var k = 0; k < tagEls.length; k++) {
+                if (tagEls[k].textContent.trim() === selectedTag) {
+                    match = true;
                     break;
                 }
-                next = next.nextElementSibling;
             }
-            yearHeader.style.display = hasVisible ? '' : 'none';
+            item.style.display = match ? '' : 'none';
         }
-    });
-})();
+    }
+
+    // Show/hide year headers
+    var years = document.querySelectorAll('.pub-list h3');
+    for (var y = 0; y < years.length; y++) {
+        var yearHeader = years[y];
+        var next = yearHeader.nextElementSibling;
+        var hasVisible = false;
+        while (next && next.tagName !== 'H3') {
+            if (next.classList.contains('publication-item') && next.style.display !== 'none') {
+                hasVisible = true;
+                break;
+            }
+            next = next.nextElementSibling;
+        }
+        yearHeader.style.display = hasVisible ? '' : 'none';
+    }
+}
 </script>
+
