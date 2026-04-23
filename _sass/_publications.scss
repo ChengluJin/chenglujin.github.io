@@ -88,3 +88,38 @@
     text-transform: uppercase;
     letter-spacing: 0.02em;
 }
+
+/* Filter Bar Styles */
+.pub-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid $border-color;
+}
+
+.filter-btn {
+    background: #f3f4f6;
+    color: #4b5563;
+    border: 1px solid #d1d5db;
+    border-radius: 9999px; /* Pill shape */
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.filter-btn:hover {
+    background: #e5e7eb;
+}
+
+.filter-btn.active {
+    background: $info-color;
+    color: #fff;
+    border-color: $info-color;
+    box-shadow: 0 2px 4px rgba($info-color, 0.3);
+}

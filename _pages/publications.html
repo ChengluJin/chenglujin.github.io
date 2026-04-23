@@ -15,6 +15,11 @@ author_profile: true
     </p>
     <p style="font-size: 0.85rem; color: #6a737d; margin-top: 8px;"><sup>*</sup> denotes shared first authorship</p>
 
+    <!-- Filter Buttons Container -->
+    <div id="filter-container" class="pub-filter-container">
+        <!-- Buttons are injected here by JavaScript -->
+    </div>
+
     <div class="pub-list">
         <h3>2026</h3>
         <div class="publication-item">
@@ -530,3 +535,94 @@ author_profile: true
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const pubList = document.querySelector('.pub-list');
+    const items = pubList.querySelectorAll('.publication-item');
+    const filterContainer = document.getElementById('filter-container');
+    const years = pubList.querySelectorAll('h3');
+    
+    // Define allowed tags (case-insensitive for checking)
+    const allowedTags = ["cps security", "cryptography", "formal methods", "game theory", "hardware security"];
+    const tagCounts = {};
+    
+    // Extract unique tags and count frequencies
+    items.forEach(item => {
+        const tags = item.querySelectorAll('.pub-tag');
+        tags.forEach(tag => {
+            const tagName = tag.textContent.trim();
+            const lowerTagName = tagName.toLowerCase();
+            
+            if (allowedTags.includes(lowerTagName)) {
+                // Use the original HTML casing for display
+                tagCounts[tagName] = (tagCounts[tagName] || 0) + 1;
+            }
+        });
+    });
+    
+    // Sort tags by frequency (descending)
+    const sortedTags = Object.keys(tagCounts)
+        .map(tag => ({ tag: tag, count: tagCounts[tag] }))
+        .sort((a, b) => b.count - a.count)
+        .map(item => item.tag);
+    
+    // Create "All" button
+    const allBtn = document.createElement('button');
+    allBtn.className = 'filter-btn active';
+    allBtn.textContent = 'All';
+    allBtn.dataset.tag = 'all';
+    filterContainer.appendChild(allBtn);
+    
+    // Create buttons for each sorted tag
+    sortedTags.forEach(tag => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        // Add the count to the button text, e.g., "Cryptography (10)"
+        btn.textContent = tag + ' (' + tagCounts[tag] + ')';
+        btn.dataset.tag = tag;
+        filterContainer.appendChild(btn);
+    });
+    
+    // Filter click handler
+    filterContainer.addEventListener('click', function(e) {
+        if (!e.target.classList.contains('filter-btn')) return;
+        
+        // Update active class
+        filterContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        
+        const selectedTag = e.target.dataset.tag;
+        
+        // Filter items
+        items.forEach(item => {
+            if (selectedTag === 'all') {
+                item.style.display = 'block';
+            } else {
+                const itemTags = Array.from(item.querySelectorAll('.pub-tag')).map(t => t.textContent.trim());
+                if (itemTags.includes(selectedTag)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            }
+        });
+        
+        // Show/hide year headers
+        years.forEach(yearHeader => {
+            let nextSibling = yearHeader.nextElementSibling;
+            let hasVisibleItems = false;
+            
+            while (nextSibling && nextSibling.tagName !== 'H3') {
+                if (nextSibling.classList.contains('publication-item') && nextSibling.style.display !== 'none') {
+                    hasVisibleItems = true;
+                    break;
+                }
+                nextSibling = nextSibling.nextElementSibling;
+            }
+            
+            yearHeader.style.display = hasVisibleItems ? 'block' : 'none';
+        });
+    });
+});
+</script>
