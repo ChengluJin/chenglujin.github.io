@@ -537,7 +537,7 @@ author_profile: true
 </div>
 
 <script>
-(function() {
+window.addEventListener('load', function() {
     const pubList = document.querySelector('.pub-list');
     const items = pubList.querySelectorAll('.publication-item');
     const filterContainer = document.getElementById('filter-container');
@@ -626,5 +626,5 @@ author_profile: true
             yearHeader.style.display = hasVisibleItems ? 'block' : 'none';
         });
     });
-})();
+});
 </script>
