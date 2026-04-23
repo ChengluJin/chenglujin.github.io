@@ -543,14 +543,12 @@ author_profile: true
 
 <script>
 window.filterPubs = function(selectedTag, clickedBtn) {
-    // Update active button
     var btns = document.querySelectorAll('.filter-btn');
     for (var i = 0; i < btns.length; i++) {
         btns[i].classList.remove('active');
     }
     clickedBtn.classList.add('active');
 
-    // Filter publication items
     var items = document.querySelectorAll('.publication-item');
     for (var j = 0; j < items.length; j++) {
         var item = items[j];
@@ -569,7 +567,6 @@ window.filterPubs = function(selectedTag, clickedBtn) {
         }
     }
 
-    // Show/hide year headers
     var years = document.querySelectorAll('.pub-list h3');
     for (var y = 0; y < years.length; y++) {
         var yearHeader = years[y];
@@ -586,5 +583,6 @@ window.filterPubs = function(selectedTag, clickedBtn) {
     }
 };
 </script>
+
 
 
