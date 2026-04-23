@@ -547,46 +547,58 @@ author_profile: true
     var pubList = document.querySelector('.pub-list');
 
     if (!filterContainer || !pubList) {
-        // Retry after a short delay if DOM isn't ready yet
         setTimeout(initFilter, 100);
         return;
     }
-
-    var items = pubList.querySelectorAll('.publication-item');
-    var years = pubList.querySelectorAll('h3');
 
     filterContainer.addEventListener('click', function(e) {
         if (!e.target.classList.contains('filter-btn')) return;
 
         // Update active class
-        filterContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        var allBtns = filterContainer.querySelectorAll('.filter-btn');
+        for (var i = 0; i < allBtns.length; i++) {
+            allBtns[i].classList.remove('active');
+        }
         e.target.classList.add('active');
 
-        var selectedTag = e.target.dataset.tag;
+        var selectedTag = e.target.getAttribute('data-tag');
+
+        // Re-query items and years fresh on every click
+        var items = document.querySelectorAll('.publication-item');
+        var years = document.querySelectorAll('.pub-list h3');
 
         // Filter items
-        items.forEach(function(item) {
+        for (var j = 0; j < items.length; j++) {
+            var item = items[j];
             if (selectedTag === 'all') {
-                item.style.display = 'block';
+                item.style.display = '';
             } else {
-                var itemTags = Array.from(item.querySelectorAll('.pub-tag')).map(function(t) { return t.textContent.trim(); });
-                item.style.display = itemTags.includes(selectedTag) ? 'block' : 'none';
+                var tagEls = item.querySelectorAll('.pub-tag');
+                var match = false;
+                for (var k = 0; k < tagEls.length; k++) {
+                    if (tagEls[k].textContent.trim() === selectedTag) {
+                        match = true;
+                        break;
+                    }
+                }
+                item.style.display = match ? '' : 'none';
             }
-        });
+        }
 
         // Show/hide year headers
-        years.forEach(function(yearHeader) {
-            var nextSibling = yearHeader.nextElementSibling;
-            var hasVisibleItems = false;
-            while (nextSibling && nextSibling.tagName !== 'H3') {
-                if (nextSibling.classList.contains('publication-item') && nextSibling.style.display !== 'none') {
-                    hasVisibleItems = true;
+        for (var y = 0; y < years.length; y++) {
+            var yearHeader = years[y];
+            var next = yearHeader.nextElementSibling;
+            var hasVisible = false;
+            while (next && next.tagName !== 'H3') {
+                if (next.classList.contains('publication-item') && next.style.display !== 'none') {
+                    hasVisible = true;
                     break;
                 }
-                nextSibling = nextSibling.nextElementSibling;
+                next = next.nextElementSibling;
             }
-            yearHeader.style.display = hasVisibleItems ? 'block' : 'none';
-        });
+            yearHeader.style.display = hasVisible ? '' : 'none';
+        }
     });
 })();
 </script>
