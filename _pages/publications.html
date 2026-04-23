@@ -537,11 +537,13 @@ author_profile: true
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+(function() {
     const pubList = document.querySelector('.pub-list');
     const items = pubList.querySelectorAll('.publication-item');
     const filterContainer = document.getElementById('filter-container');
     const years = pubList.querySelectorAll('h3');
+    
+    if (!pubList || !filterContainer) return;
     
     // Define allowed tags (case-insensitive for checking)
     const allowedTags = ["cps security", "cryptography", "formal methods", "game theory", "hardware security"];
@@ -624,5 +626,5 @@ document.addEventListener("DOMContentLoaded", function() {
             yearHeader.style.display = hasVisibleItems ? 'block' : 'none';
         });
     });
-});
+})();
 </script>
