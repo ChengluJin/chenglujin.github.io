@@ -15,9 +15,14 @@ author_profile: true
     </p>
     <p style="font-size: 0.85rem; color: #6a737d; margin-top: 8px;"><sup>*</sup> denotes shared first authorship</p>
 
-    <!-- Filter Buttons Container -->
+    <!-- Filter Buttons - hardcoded for reliability -->
     <div id="filter-container" class="pub-filter-container">
-        <!-- Buttons are injected here by JavaScript -->
+        <button class="filter-btn active" data-tag="all">All</button>
+        <button class="filter-btn" data-tag="Hardware Security">Hardware Security</button>
+        <button class="filter-btn" data-tag="Cryptography">Cryptography</button>
+        <button class="filter-btn" data-tag="CPS Security">CPS Security</button>
+        <button class="filter-btn" data-tag="Game Theory">Game Theory</button>
+        <button class="filter-btn" data-tag="Formal Methods">Formal Methods</button>
     </div>
 
     <div class="pub-list">
@@ -537,84 +542,42 @@ author_profile: true
 </div>
 
 <script>
-window.addEventListener('load', function() {
-    const pubList = document.querySelector('.pub-list');
-    const items = pubList.querySelectorAll('.publication-item');
-    const filterContainer = document.getElementById('filter-container');
-    const years = pubList.querySelectorAll('h3');
-    
-    if (!pubList || !filterContainer) return;
-    
-    // Define allowed tags (case-insensitive for checking)
-    const allowedTags = ["cps security", "cryptography", "formal methods", "game theory", "hardware security"];
-    const tagCounts = {};
-    
-    // Extract unique tags and count frequencies
-    items.forEach(item => {
-        const tags = item.querySelectorAll('.pub-tag');
-        tags.forEach(tag => {
-            const tagName = tag.textContent.trim();
-            const lowerTagName = tagName.toLowerCase();
-            
-            if (allowedTags.includes(lowerTagName)) {
-                // Use the original HTML casing for display
-                tagCounts[tagName] = (tagCounts[tagName] || 0) + 1;
-            }
-        });
-    });
-    
-    // Sort tags by frequency (descending)
-    const sortedTags = Object.keys(tagCounts)
-        .map(tag => ({ tag: tag, count: tagCounts[tag] }))
-        .sort((a, b) => b.count - a.count)
-        .map(item => item.tag);
-    
-    // Create "All" button
-    const allBtn = document.createElement('button');
-    allBtn.className = 'filter-btn active';
-    allBtn.textContent = 'All';
-    allBtn.dataset.tag = 'all';
-    filterContainer.appendChild(allBtn);
-    
-    // Create buttons for each sorted tag
-    sortedTags.forEach(tag => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn';
-        // Add the count to the button text, e.g., "Cryptography (10)"
-        btn.textContent = tag + ' (' + tagCounts[tag] + ')';
-        btn.dataset.tag = tag;
-        filterContainer.appendChild(btn);
-    });
-    
-    // Filter click handler
+(function initFilter() {
+    var filterContainer = document.getElementById('filter-container');
+    var pubList = document.querySelector('.pub-list');
+
+    if (!filterContainer || !pubList) {
+        // Retry after a short delay if DOM isn't ready yet
+        setTimeout(initFilter, 100);
+        return;
+    }
+
+    var items = pubList.querySelectorAll('.publication-item');
+    var years = pubList.querySelectorAll('h3');
+
     filterContainer.addEventListener('click', function(e) {
         if (!e.target.classList.contains('filter-btn')) return;
-        
+
         // Update active class
-        filterContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        filterContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
         e.target.classList.add('active');
-        
-        const selectedTag = e.target.dataset.tag;
-        
+
+        var selectedTag = e.target.dataset.tag;
+
         // Filter items
-        items.forEach(item => {
+        items.forEach(function(item) {
             if (selectedTag === 'all') {
                 item.style.display = 'block';
             } else {
-                const itemTags = Array.from(item.querySelectorAll('.pub-tag')).map(t => t.textContent.trim());
-                if (itemTags.includes(selectedTag)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
+                var itemTags = Array.from(item.querySelectorAll('.pub-tag')).map(function(t) { return t.textContent.trim(); });
+                item.style.display = itemTags.includes(selectedTag) ? 'block' : 'none';
             }
         });
-        
+
         // Show/hide year headers
-        years.forEach(yearHeader => {
-            let nextSibling = yearHeader.nextElementSibling;
-            let hasVisibleItems = false;
-            
+        years.forEach(function(yearHeader) {
+            var nextSibling = yearHeader.nextElementSibling;
+            var hasVisibleItems = false;
             while (nextSibling && nextSibling.tagName !== 'H3') {
                 if (nextSibling.classList.contains('publication-item') && nextSibling.style.display !== 'none') {
                     hasVisibleItems = true;
@@ -622,9 +585,8 @@ window.addEventListener('load', function() {
                 }
                 nextSibling = nextSibling.nextElementSibling;
             }
-            
             yearHeader.style.display = hasVisibleItems ? 'block' : 'none';
         });
     });
-});
+})();
 </script>
