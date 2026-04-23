@@ -542,7 +542,7 @@ author_profile: true
 </div>
 
 <script>
-function filterPubs(selectedTag, clickedBtn) {
+window.filterPubs = function(selectedTag, clickedBtn) {
     // Update active button
     var btns = document.querySelectorAll('.filter-btn');
     for (var i = 0; i < btns.length; i++) {
@@ -584,6 +584,7 @@ function filterPubs(selectedTag, clickedBtn) {
         }
         yearHeader.style.display = hasVisible ? '' : 'none';
     }
-}
+};
 </script>
+
 
