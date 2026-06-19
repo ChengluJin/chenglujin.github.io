@@ -123,3 +123,14 @@
     border-color: $info-color;
     box-shadow: 0 2px 4px rgba($info-color, 0.3);
 }
+
+/* Progressive Enhancement / Graceful Degradation */
+.no-js .pub-filter-container {
+    display: none !important;
+}
+
+.no-js .publication-item {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
