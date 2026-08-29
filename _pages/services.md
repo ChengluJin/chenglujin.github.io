@@ -32,12 +32,12 @@ author_profile: true
 ### Selected Program Committee Member
 
 <div class="services-grid" markdown="1">
+- IACR Conference on Cryptographic Hardware and Embedded Systems (**CHES**'25, 26, 27)
+- IEEE International Symposium on Hardware-Oriented Security and Trust (**HOST**'27)
 - ACM Conference on Computer and Communications Security (**CCS**'25, 26)
 - ACM Asia Conference on Computer and Communications Security (**AsiaCCS**'25, 26)
-- IACR Conference on Cryptographic Hardware and Embedded Systems (**CHES**'25, 26)
 - International Conference on Financial Cryptography and Data Security (**FC**'25, 26)
 - Information Security Conference (**ISC**'25, 26)
-- International Symposium on Quality Electronic Design (**ISQED**'20, 21, 22, 23, 24, 25) 
 - IEEE Conference on Communications and Network Security (**CNS**'22, 23, 24)
 - International Conference on Information and Communications Security (**ICICS**'19, 20, 21, 22)
 </div>

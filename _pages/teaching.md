@@ -39,6 +39,14 @@ author_profile: true
   }
 </style>
 
+## Maastricht University
+
+<div class="course-item">
+  <span class="course-title">Blockchains</span>
+  <div class="course-meta">Fall 2026</div>
+  <span class="skill-badge">Coordinator and Lecturer</span>
+</div>
+
 ## University of Amsterdam
 
 <div class="course-item">
