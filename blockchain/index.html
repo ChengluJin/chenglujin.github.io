@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How a Blockchain Works — an interactive walkthrough</title>
+  <meta name="description" content="Follow one Bitcoin transaction from key to confirmed block, and see how the ideas in Lectures 1–4 connect." />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">⛓</span>
+        <div class="brand__text">
+          <strong>How a Blockchain Works</strong>
+          <span>Blockchains — An Introduction · Lectures 1–4</span>
+        </div>
+      </div>
+      <nav class="viewtabs" aria-label="Views">
+        <a href="#/spine/1" data-view="spine" class="viewtab">Follow a transaction</a>
+        <a href="#/map" data-view="map" class="viewtab">Concept map</a>
+      </nav>
+      <div class="header-actions">
+        <button id="reset-scenario" class="btn btn--ghost" type="button" title="Restore the starting scenario">Reset</button>
+        <button id="theme-toggle" class="btn btn--icon" type="button" title="Toggle light / dark" aria-label="Toggle light / dark">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Spine view -->
+    <section id="view-spine" class="view">
+      <ol id="steprail" class="steprail" aria-label="Steps"></ol>
+      <div class="stepwrap">
+        <div id="step-container" class="stepcard" aria-live="polite"></div>
+        <div class="stepnav">
+          <button id="prev-step" class="btn" type="button">← Previous</button>
+          <span id="step-progress" class="stepnav__progress"></span>
+          <button id="next-step" class="btn btn--primary" type="button">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Concept map view -->
+    <section id="view-map" class="view" hidden>
+      <div id="map-container" class="mapcard"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Department of Advanced Computing Sciences · Maastricht University &amp; CWI Amsterdam</span>
+    <span>Bitcoin is the running example. <span class="eth-tag">⟠</span> marks where Ethereum differs, as covered in the lectures.</span>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

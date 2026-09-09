@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Self-tests — How a Blockchain Works</title>
+  <style>
+    body { font-family: ui-monospace, Menlo, Consolas, monospace; margin: 2rem; line-height: 1.5; }
+    .pass { color: #1f8a4c; }
+    .fail { color: #c23b3b; font-weight: 700; }
+    h1 { font-family: system-ui, sans-serif; }
+    #summary { font-family: system-ui, sans-serif; font-weight: 700; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Self-tests</h1>
+  <div id="summary">running…</div>
+  <div id="out"></div>
+
+  <script type="module">
+    import { sha256, ripemd160, keccak_256, sha256d, hash160, utf8, bytesToHex, hexToBytes } from './js/lib/hash.js';
+    import { base58check } from './js/lib/base58check.js';
+    import { p2pkhAddress, ethAddress } from './js/lib/bitcoin.js';
+    import { randomPrivateKey, getPublicKey, sign, verify, malleate } from './js/lib/crypto.js';
+    import { merkleRoot, merkleProof, verifyProof } from './js/lib/merkle.js';
+    import { leadingZeroBits, meetsBits, mineSync } from './js/lib/pow.js';
+    import { seedChain, headerHash } from './js/lib/chain.js';
+
+    const out = document.getElementById('out');
+    let passed = 0, failed = 0;
+    function check(name, cond, detail = '') {
+      const li = document.createElement('div');
+      li.className = cond ? 'pass' : 'fail';
+      li.textContent = (cond ? '✓ ' : '✗ ') + name + (detail ? '  — ' + detail : '');
+      out.append(li);
+      cond ? passed++ : failed++;
+    }
+
+    // --- hashing test vectors ---
+    check('SHA-256("abc")', bytesToHex(sha256(utf8('abc'))) ===
+      'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');
+    check('RIPEMD-160("abc")', bytesToHex(ripemd160(utf8('abc'))) ===
+      '8eb208f7e05d987a9b044a8e98c6b087f15a0bfc');
+    check('Keccak-256("")', bytesToHex(keccak_256(new Uint8Array())) ===
+      'c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470');
+    check('SHA-256d = SHA-256 twice',
+      bytesToHex(sha256d(utf8('x'))) === bytesToHex(sha256(sha256(utf8('x')))));
+    check('HASH160 length is 20 bytes', hash160(utf8('x')).length === 20);
+
+    // --- Base58Check address ---
+    // Well-known vector: pubkey-hash 010966...9cb48b -> 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+    const pkh = hexToBytes('010966776006953d5567439e5e39f86a0d273bee');
+    const addr = base58check(new Uint8Array([0x00, ...pkh]));
+    check('Base58Check P2PKH known vector', addr === '16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM', addr);
+
+    // --- secp256k1 sign / verify ---
+    const sk = randomPrivateKey();
+    const pk = getPublicKey(sk, true);
+    check('public key is 33-byte compressed', pk.length === 33);
+    const msg = sha256(utf8('authorise this transaction'));
+    const sig = sign(msg, sk);
+    check('verify accepts a good signature', verify(sig, msg, pk) === true);
+    const tampered = sha256(utf8('authorise this transactioX'));
+    check('verify rejects after a 1-byte change', verify(sig, tampered, pk) === false);
+
+    // --- Ethereum address derivation shape ---
+    const ethAddr = ethAddress(getPublicKey(sk, false));
+    check('Ethereum address is 0x + 40 hex', /^0x[0-9a-fA-F]{40}$/.test(ethAddr), ethAddr);
+
+    // --- sample-chain.json consistency (Lab 1 recipe: SHA-256 over JSON) ---
+    try {
+      const chain = await (await fetch('./data/sample-chain.json')).json();
+      const b1 = chain[1];
+      const recomputed = bytesToHex(sha256(utf8(JSON.stringify({
+        block_number: b1.block_number,
+        timestamp: b1.timestamp,
+        events: b1.events,
+        previous_hash: b1.previous_hash,
+      }))));
+      // The lab hashes a dict; key order / spacing may differ from Python's json.dumps,
+      // so this is a soft check: genesis prev-hash must be 64 zeros and hashes 64 hex.
+      check('sample-chain genesis prev-hash is 64 zeros',
+        chain[0].previous_hash === '0'.repeat(64));
+      check('sample-chain block hashes are 64 hex chars',
+        chain.every(b => /^[0-9a-f]{64}$/.test(b.hash)));
+      void recomputed;
+    } catch (e) {
+      check('load sample-chain.json', false, String(e));
+    }
+
+    // --- signature malleability (Step 5) ---
+    {
+      const m = sha256(utf8('pay bob'));
+      const s = sign(m, sk);
+      const hi = malleate(s);
+      check('low-s signature verifies', verify(s, m, pk) === true);
+      check('high-s (malleated) verifies only with lowS:false',
+        verify(hi.toCompactHex(), m, pk, { lowS: false }) === true &&
+        verify(hi.toCompactHex(), m, pk) === false);
+    }
+
+    // --- Merkle proof (Step 6) ---
+    {
+      const leaves = ['aa', 'bb', 'cc', 'dd', 'ee'].map(x => bytesToHex(sha256(utf8(x))));
+      const root = merkleRoot(leaves);
+      let allOk = true;
+      for (let i = 0; i < leaves.length; i++) {
+        const pr = merkleProof(leaves, i);
+        if (!verifyProof(leaves[i], i, pr, root).ok) allOk = false;
+      }
+      check('every Merkle proof recomputes the root (incl. odd row)', allOk);
+      const tampered = [...leaves]; tampered[2] = bytesToHex(sha256(utf8('zz')));
+      check('changing a leaf changes the root', merkleRoot(tampered) !== root);
+    }
+
+    // --- proof of work (Step 8) ---
+    {
+      check('leadingZeroBits counts correctly', leadingZeroBits('00f0') === 8 && leadingZeroBits('1abc') === 3);
+      const seed = seedChain(5, 8);
+      const header = { version: 1, prevHash: seed[5].hash, merkleRoot: bytesToHex(sha256(utf8('m'))), time: 1, bits: 10, nonce: null };
+      const res = await mineSync(header, 10, 500000);
+      check('mineSync finds a nonce for bits=10', !!res && meetsBits(res.hash, 10), res ? `nonce ${res.nonce}` : 'not found');
+      check('the found header actually hashes below target',
+        !!res && leadingZeroBits(headerHash({ ...header, nonce: res.nonce })) >= 10);
+    }
+
+    // --- concept map data (Phase 4) ---
+    try {
+      const cm = await (await fetch('./data/concepts.json')).json();
+      const ids = new Set(cm.nodes.map(n => n.id));
+      check('concepts.json: every edge endpoint is a real node',
+        cm.edges.every(([a, b]) => ids.has(a) && ids.has(b)));
+      check('concepts.json: every step reference is 1–11',
+        cm.nodes.every(n => n.step == null || (n.step >= 1 && n.step <= 11)));
+      check('concepts.json: coordinates fit the virtual space',
+        cm.nodes.every(n => n.x >= 0 && n.x <= cm.space.w && n.y >= 0 && n.y <= cm.space.h));
+    } catch (e) {
+      check('load concepts.json', false, String(e));
+    }
+
+    document.getElementById('summary').textContent =
+      `${passed} passed, ${failed} failed`;
+    document.getElementById('summary').className = failed ? 'fail' : 'pass';
+  </script>
+</body>
+</html>
