@@ -123,20 +123,6 @@
         !!res && leadingZeroBits(headerHash({ ...header, nonce: res.nonce })) >= 10);
     }
 
-    // --- concept map data (Phase 4) ---
-    try {
-      const cm = await (await fetch('./data/concepts.json')).json();
-      const ids = new Set(cm.nodes.map(n => n.id));
-      check('concepts.json: every edge endpoint is a real node',
-        cm.edges.every(([a, b]) => ids.has(a) && ids.has(b)));
-      check('concepts.json: every step reference is 1–11',
-        cm.nodes.every(n => n.step == null || (n.step >= 1 && n.step <= 11)));
-      check('concepts.json: coordinates fit the virtual space',
-        cm.nodes.every(n => n.x >= 0 && n.x <= cm.space.w && n.y >= 0 && n.y <= cm.space.h));
-    } catch (e) {
-      check('load concepts.json', false, String(e));
-    }
-
     document.getElementById('summary').textContent =
       `${passed} passed, ${failed} failed`;
     document.getElementById('summary').className = failed ? 'fail' : 'pass';

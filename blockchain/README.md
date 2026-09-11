@@ -1,8 +1,7 @@
 # How a Blockchain Works — interactive walkthrough
 
 An interactive single-page site for **Blockchains: An Introduction** (Lectures 1–4).
-It follows one **Bitcoin** transaction from key generation to a confirmed block, and a
-second view (the concept map) shows how the ideas across the four lectures connect.
+It follows one **Bitcoin** transaction from key generation to a confirmed block.
 Small **⟠ Ethereum differs** callouts appear only where the lectures draw that contrast.
 
 ## Run it locally
@@ -21,15 +20,15 @@ Any static file server works (`npx serve docs`, VS Code Live Server, etc.).
 
 Open `http://localhost:8000/tests.html`. It checks the hashing test vectors,
 Base58Check + EIP-55 addresses, secp256k1 sign/verify and low-s/high-s malleability,
-Merkle proofs (including the odd-row rule), the proof-of-work search, and the
-concept-map data. All rows should be green.
+Merkle proofs (including the odd-row rule), and the proof-of-work search. All rows
+should be green.
 
 ## Build status — complete
 
-All 11 walkthrough steps and the concept map are built. Every step shows a **cast bar**
+All 11 walkthrough steps are built. Every step shows a **cast bar**
 (Alice / Bob / Miner M / Honest nodes / Node E — click a badge for that party's role, powers,
-and view of the chain), a **before → after on-chain status** panel, an **⟠ Ethereum differs**
-note, and links **into the concept map**.
+and view of the chain), a **before → after on-chain status** panel, and an **⟠ Ethereum differs**
+note.
 
 | Step | What it does |
 |---|---|
@@ -48,9 +47,6 @@ note, and links **into the concept map**.
 `js/lib/` holds the engine — `tx.js`, `merkle.js`, `script.js`, `chain.js`, `pow.js` — using
 real SHA-256 / RIPEMD-160 / Keccak-256 / ECDSA. Byte-level serialization is teaching-simplified
 and labelled as such in each file. `js/workers/miner.js` is the ES-module mining worker.
-`data/concepts.json` + `js/conceptmap.js` are the concept map (a hand-laid-out "builds-on" DAG
-with hover, click-through to each step, six highlightable threads, and lecture filters).
-`notes/lecture{1..4}-notes.pdf` are copies of the lecture notes, linked from the map.
 
 ## Project layout
 
@@ -59,13 +55,12 @@ docs/
   index.html            page shell: header, view tabs, step rail, footer
   css/styles.css         design tokens (light/dark), components
   js/
-    main.js              bootstrap + hash router (#/spine/N, #/map)
+    main.js              bootstrap + hash router (#/spine/N)
     state.js             the shared scenario object + pub/sub
     ui.js                DOM helpers
     actors.js            the named cast (roles, powers, colours)
     components.js         castBar() + ledgerBeforeAfter(), shared by every step
     steps/01..11-*.js    one module per walkthrough step
-    conceptmap.js         the "how it connects" view (SVG builds-on DAG)
     lib/
       hash.js             SHA-256 / RIPEMD-160 / Keccak-256 wrappers, hex helpers
       base58check.js       Base58 + Base58Check (written here, not vendored)
@@ -83,8 +78,6 @@ docs/
     hash-rate.json         real Bitcoin network hash rate (from lecture3/figs)
     utxo-count.json         Bitcoin UTXO-set size over time (from lecture2/figs)
     sample-chain.json       a serialized chain (from Practicals/Lab_1)
-    concepts.json           concept-map nodes, edges, threads
-  notes/lecture{1..4}-notes.pdf   copies of the lecture notes (linked from the map)
   tests.html               framework-free self-tests
 ```
 
