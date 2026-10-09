@@ -134,3 +134,29 @@
     opacity: 1 !important;
     visibility: visible !important;
 }
+
+/* Award-winning papers */
+.pub-award {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    color: #b45309;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.pub-award a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pub-award a:hover {
+    text-decoration: underline;
+}
+
+.pub-award-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}

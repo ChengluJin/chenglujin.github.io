@@ -13,3 +13,7 @@ Persistent undo history
 
 
 
+
+# local Ruby gems
+.bundle/
+vendor/bundle/ruby/
