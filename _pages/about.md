@@ -3,6 +3,13 @@ permalink: /
 title: "Homepage of Chenglu Jin"
 excerpt: "About me"
 author_profile: true
+og_title: "Chenglu Jin | Hardware Security & Secure Computation"
+og_description: "Tenured researcher at CWI Amsterdam working on hardware security, secure computation, and formal methods. Publications, projects, and open PhD positions."
+og_image: "preview.jpg"
+og_image_width: 1200
+og_image_height: 627
+og_image_alt: "Chenglu Jin, CWI Amsterdam: hardware security, secure computation, formal methods"
+og_type: "website"
 redirect_from: 
   - /about/
   - /about.html
