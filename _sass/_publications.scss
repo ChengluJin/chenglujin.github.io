@@ -160,3 +160,38 @@
     height: 16px;
     flex-shrink: 0;
 }
+
+/* Featured / demonstrated papers */
+.pub-highlight {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+    color: #0f766e;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.pub-highlight a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pub-highlight a:hover {
+    text-decoration: underline;
+}
+
+.pub-highlight-icon {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+}
+
+/* Artifact evaluation badges */
+.pub-badge {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
