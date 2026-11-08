@@ -51,7 +51,7 @@ robots: "noindex, nofollow"
 
 <div class="sem-meta">
   <div><strong>Date:</strong> Thursday, November 19, 2026</div>
-  <div><strong>Time:</strong> 10:30 – 17:30</div>
+  <div><strong>Time:</strong> 10:30 – 17:00</div>
   <div><strong>Location:</strong> Room L120, CWI, <a href="https://www.google.com/maps/search/?api=1&query=CWI+Science+Park+123+Amsterdam">Science Park 123, Amsterdam</a></div>
 </div>
 
@@ -73,7 +73,7 @@ robots: "noindex, nofollow"
 </div>
 <div class="sem-item sem-break">
   <div class="sem-time">12:00 – 13:30</div>
-  <div><span class="sem-title">Lunch + discussion (meeting room, catered from the canteen)</span></div>
+  <div><span class="sem-title">Lunch (provided)</span></div>
 </div>
 
 <h3 class="sem-session">Session 2</h3>
@@ -112,12 +112,4 @@ robots: "noindex, nofollow"
     <span class="sem-title">Title TBD</span>
     <span class="sem-speaker">Qiang Tang (University of Sydney)</span>
   </div>
-</div>
-<div class="sem-item sem-break">
-  <div class="sem-time">17:00 – 17:30</div>
-  <div><span class="sem-title">Buffer / wrap-up</span></div>
-</div>
-<div class="sem-item sem-break">
-  <div class="sem-time">17:30</div>
-  <div><span class="sem-title">Head to dinner</span></div>
 </div>
