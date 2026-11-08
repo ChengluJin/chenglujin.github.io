@@ -32,6 +32,7 @@ author_profile: true
 ### Selected Program Committee Member
 
 <div class="services-grid" markdown="1">
+- IEEE European Symposium on Security and Privacy (**EuroS&P**'27)
 - IACR Conference on Cryptographic Hardware and Embedded Systems (**CHES**'25, 26, 27)
 - IEEE International Symposium on Hardware-Oriented Security and Trust (**HOST**'27)
 - ACM Conference on Computer and Communications Security (**CCS**'25, 26)

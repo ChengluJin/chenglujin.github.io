@@ -73,6 +73,14 @@ author_profile: true
   <span class="skill-badge">Guest Lecturer</span>
 </div>
 
+## Advanced School for Computing and Imaging (ASCI)
+
+<div class="course-item">
+  <span class="course-title">Hardware and System Security</span>
+  <div class="course-meta">May 2025</div>
+  <span class="skill-badge">Guest Lecturer</span>
+</div>
+
 ## King Abdullah University of Science and Technology
 
 <div class="course-item">
@@ -96,13 +104,13 @@ author_profile: true
 </div>
 
 <div class="course-item">
-  <span class="course-title">Hardware Security</span>
+  <span class="course-title">Introduction to Hardware Security and Trust</span>
   <div class="course-meta">Spring 2020</div>
   <span class="skill-badge">Teaching Assistant</span>
 </div>
 
 <div class="course-item">
-  <span class="course-title">Advanced Hardware Design</span>
+  <span class="course-title">Advanced Computer Hardware Design</span>
   <div class="course-meta">Fall 2019</div>
   <span class="skill-badge">Teaching Assistant</span>
 </div>
@@ -128,7 +136,7 @@ author_profile: true
 </div>
 
 <div class="course-item">
-  <span class="course-title">Microprocessor Application Lab</span>
+  <span class="course-title">Microprocessor Applications Laboratory</span>
   <div class="course-meta">Spring 2016, Fall 2016</div>
   <span class="skill-badge">Teaching Assistant</span>
 </div>
