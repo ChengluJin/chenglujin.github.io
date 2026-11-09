@@ -44,6 +44,29 @@ robots: "noindex, nofollow"
   .sem-title { font-weight: 700; color: #111827; display: block; }
   .sem-speaker { color: #374151; font-size: 0.95rem; }
   .sem-break .sem-title { font-weight: 500; color: #6b7280; font-style: italic; }
+  .sem-register {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+    margin: -1rem 0 2rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid #dbeafe;
+    border-radius: 4px;
+    background: #eff6ff;
+  }
+  .sem-register p { margin: 0; flex: 1 1 18rem; font-size: 0.95rem; color: #374151; }
+  a.sem-register-btn {
+    display: inline-block;
+    padding: 0.55rem 1.25rem;
+    background: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  a.sem-register-btn:hover { background: #1d4ed8; color: #fff; text-decoration: none; }
   @media (max-width: 600px) {
     .sem-item { grid-template-columns: 1fr; }
   }
@@ -53,6 +76,11 @@ robots: "noindex, nofollow"
   <div><strong>Date:</strong> Thursday, November 19, 2026</div>
   <div><strong>Time:</strong> 10:30 – 17:00</div>
   <div><strong>Location:</strong> Room L120, CWI, <a href="https://www.google.com/maps/search/?api=1&query=CWI+Science+Park+123+Amsterdam">Science Park 123, Amsterdam</a></div>
+</div>
+
+<div class="sem-register">
+  <p><strong>Registration:</strong> lunch is provided. Please register by <strong>12:00 (noon) on Friday, November 13</strong> so we can plan the room and order lunch.</p>
+  <a class="sem-register-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfjaGdi5wGn2rTukGCgY-yrXYxcty7hfoX9EnpQWR6U9mkThA/viewform" target="_blank" rel="noopener">Register</a>
 </div>
 
 <h3 class="sem-session">Session 1</h3>
