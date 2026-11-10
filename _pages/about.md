@@ -25,6 +25,14 @@ My research focuses on the **vertical integration of security**. I utilize **mat
 
 Before joining CWI Amsterdam, I worked as a research assistant professor at [New York University](https://www.nyu.edu/), affiliated with the [Center for Urban Science and Progress](https://cusp.nyu.edu/) and the [Center for Cybersecurity](http://cyber.nyu.edu/). I obtained my Ph.D. degree at the University of Connecticut, under the supervision of [Prof. Marten van Dijk](https://scl.engr.uconn.edu/people/marten/info.php). Prior to that, I obtained my Master of Science degree (under the supervision of [Prof. Ramesh Karri](https://engineering.nyu.edu/faculty/ramesh-karri)) and Bachelor of Science degree from New York University and Xidian University, respectively. 
 
+<div class="hiring-banner">
+  <div class="hiring-banner__tag"><i class="fas fa-bullhorn" aria-hidden="true"></i> We're hiring!</div>
+  <div class="hiring-banner__title">Open PhD position in Formal Methods &amp; Design Automation for Cryptography and Hardware Security</div>
+  <p class="hiring-banner__text">Join the Computer Security group at CWI Amsterdam, as part of the NWO Gravitation program <em>Challenges in Cyber Security (CiCS)</em>. Possible directions include logic synthesis for secure computation (MPC/FHE), computer-aided cryptography and hardware security, and privacy-preserving formal verification.</p>
+  <p class="hiring-banner__meta"><strong>Apply by 31 December 2026.</strong> Applications are reviewed as they arrive, until the position is filled.</p>
+  <a class="hiring-banner__button" href="https://www.cwi.nl/en/jobs/vacancies/1348025/" target="_blank" rel="noopener">View vacancy &amp; apply <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</div>
+
 ## Honors and Awards
 * **Runner-up**, Dutch Cyber Security Best Research Paper Award (DCSRP), Technical Track, 2025 [Certificate](http://chenglujin.github.io/files/DCSRP-2025.pdf)
 * **Shortlisted**, Top Picks in Hardware and Embedded Security, 2025
@@ -33,6 +41,8 @@ Before joining CWI Amsterdam, I worked as a research assistant professor at [New
 * **Doctoral Dissertation Fellowship**, University of Connecticut, Spring 2019
 
 ## Prospective Ph.D. students and Postdocs
+
+**Open position:** We are hiring a PhD student in formal methods and design automation for cryptography and hardware security. See the [vacancy at CWI](https://www.cwi.nl/en/jobs/vacancies/1348025/) (apply by 31 December 2026).
 
 **For Ph.D. students abroad**, if you are interested in working with us for 3 months in CWI Amsterdam, please check out the [Ph.D. internship program](https://www.cwi.nl/jobs/internship) at CWI.
 

@@ -416,6 +416,59 @@
   border-radius: 0 $border-radius $border-radius 0;
 }
 
+.hiring-banner {
+  margin: 2em 0;
+  padding: 1.25em 1.5em;
+  background: linear-gradient(135deg, mix(#fff, $info-color, 92%), mix(#fff, $warning-color, 90%));
+  border: 1px solid mix(#fff, $info-color, 70%);
+  border-left: 6px solid $info-color;
+  border-radius: $border-radius;
+  box-shadow: 0 2px 8px rgba($info-color, 0.12);
+
+  .hiring-banner__tag {
+    display: inline-block;
+    margin-bottom: 0.6em;
+    padding: 0.2em 0.8em;
+    background: $warning-color;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    border-radius: 9999px;
+  }
+
+  .hiring-banner__title {
+    font-size: 1.15em;
+    font-weight: 700;
+    line-height: 1.35;
+    color: $primary-color;
+    margin-bottom: 0.5em;
+  }
+
+  .hiring-banner__text,
+  .hiring-banner__meta {
+    font-size: 0.9em;
+    margin: 0 0 0.6em;
+  }
+
+  .hiring-banner__button {
+    display: inline-block;
+    margin-top: 0.4em;
+    padding: 0.5em 1.1em;
+    background: $info-color;
+    color: #fff !important;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: $border-radius;
+
+    &:hover {
+      background: mix(#000, $info-color, 20%);
+    }
+  }
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
