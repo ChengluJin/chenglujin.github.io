@@ -130,8 +130,8 @@ robots: "noindex, nofollow"
 <div class="sem-item">
   <div class="sem-time">15:30 – 16:15</div>
   <div>
-    <span class="sem-title">Title TBD</span>
-    <span class="sem-speaker">Sisi Duan (Tsinghua University)</span>
+    <span class="sem-title">Verifying Consensus Protocols from LLM-assisted TLA<sup>+</sup>: A Case Study of Byzantine Reliable Broadcast</span>
+    <span class="sem-speaker">Shuhe Cao (Shandong University)</span>
   </div>
 </div>
 <div class="sem-item">
